@@ -1,0 +1,1459 @@
+shipment_id,commodity,hs_code,declared_value_usd,contract_value_usd,market_price_per_unit,declared_vs_market_ratio,declared_vs_contract_ratio,market_outlier_flag,contract_deviation_flag,benford_rare_digit_flag,is_round_value,risk_score,risk_category,risk_reasons
+SHP02609,Agricultural,260300,8567,7570,413.49,0.0065276495982687695,1.1317040951122854,False,True,True,False,55,High,Declared value deviates from contract value; Value pattern statistically unusual (Benford)
+SHP00439,Agricultural,843890,9017,8055,2633.02,0.001510624039444064,1.1194289261328367,False,True,True,False,55,High,Declared value deviates from contract value; Value pattern statistically unusual (Benford)
+SHP06476,Agricultural,843890,87823,88747,83.6,1.1468497315141766,0.989588380452297,True,False,True,False,50,High,Unusual price vs peer commodities; Value pattern statistically unusual (Benford)
+SHP04376,Minerals,843890,81732,81398,353.26,3.921440682764028,1.0041032949212512,True,False,True,False,50,High,Unusual price vs peer commodities; Value pattern statistically unusual (Benford)
+SHP03442,Agricultural,520942,97198,96512,82.49,1.2390119874326928,1.007107924403183,True,False,True,False,50,High,Unusual price vs peer commodities; Value pattern statistically unusual (Benford)
+SHP09303,Electronics,843890,96405,97055,40.46,0.5362871207981942,0.9933027664726186,True,False,True,False,50,High,Unusual price vs peer commodities; Value pattern statistically unusual (Benford)
+SHP07351,Electronics,843890,94934,93990,732.87,2.539947030704159,1.0100436216618789,True,False,True,False,50,High,Unusual price vs peer commodities; Value pattern statistically unusual (Benford)
+SHP03246,Electronics,843890,5860,5172,867.69,0.0017852403015853357,1.1330239752513533,False,True,False,False,35,High,Declared value deviates from contract value
+SHP08545,Electronics,843890,6884,6141,2402.88,0.0006064554315797616,1.1209900667643706,False,True,False,False,35,High,Declared value deviates from contract value
+SHP02103,Minerals,100610,5925,6910,28.15,0.046804441563766015,0.8574529667149059,False,True,False,False,35,High,Declared value deviates from contract value
+SHP08916,Agricultural,847130,74825,74249,50.93,2.2260202654861994,1.0077576802381176,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP02511,Agricultural,847130,146043,145386,44.33,1.3726877960748929,1.0045190045809087,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP00015,Machinery,847130,142982,142374,337.12,0.7683476575665655,1.0042704426369984,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP00128,Machinery,260300,52057,52753,84.46,0.7068244671490983,0.9868064375485754,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP03013,Electronics,847130,60627,60295,45.62,1.8665120758192988,1.005506260883987,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP02982,Agricultural,847130,149654,150535,24.32,1.8910682803351342,0.9941475404391006,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP02948,Electronics,847130,146448,146380,213.0,0.5947658267946782,1.000464544336658,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP09022,Minerals,100610,117946,118574,5.63,5.758536544878073,0.9947037293167136,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP08958,Machinery,100610,45603,45400,13.3,1.1100022636714804,1.0044713656387665,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP09774,Textiles,520942,65444,66070,79.07,0.9912235728366211,0.9905252005448767,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP03319,Electronics,260300,105584,106163,18.78,1.19391616579043,0.9945461224720477,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP01569,Electronics,843890,130802,130901,2554.59,0.7314676719160412,0.9992437032566596,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP08809,Agricultural,847130,112691,113655,524.85,1.1543595149049242,0.9915181910166733,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP03817,Machinery,843890,143741,143130,115.51,3.2406330260006344,1.0042688465031788,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP03970,Textiles,260300,143419,143550,155.27,3.6365153106425225,0.9990874259839777,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP04081,Machinery,520942,117994,117112,462.1,1.1766958495428104,1.0075312521347086,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP04842,Minerals,847130,124050,123358,55.52,4.597386771978511,1.0056096888730361,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP05034,Textiles,260300,127851,127612,201.38,1.0797183110010315,1.001872864620882,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP03530,Textiles,847130,74642,75367,91.4,0.9248607913642322,0.9903804052171374,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP03260,Electronics,847130,106666,107156,44.47,0.7138707743047747,0.9954272275934152,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP05560,Electronics,847130,146987,147847,65.88,0.7414863283051071,0.9941831758507105,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP05533,Machinery,520942,68720,67757,215.64,0.8007017092511343,1.0142125536844901,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP06224,Electronics,260300,103015,103003,1889.38,0.5452317691517853,1.0001165014611224,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP06086,Machinery,847130,149369,150286,977.9,0.9983310909665704,0.9938983005735731,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP06586,Agricultural,843890,143082,142974,59.33,1.2118743049479659,1.0007553820974442,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP00875,Machinery,847130,43192,43318,50.86,0.8150030606014176,0.9970912784523754,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP08434,Agricultural,520942,141349,142209,384.2,7.075091098386257,0.9939525627773207,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP06498,Machinery,520942,63611,62966,710.71,0.9323276488769446,1.0102436235428645,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP08502,Machinery,260300,38841,38930,36.69,0.7123999520187876,0.9977138453634729,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP06738,Textiles,520942,69899,68974,368.77,0.679377525772735,1.0134108504653927,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP07167,Machinery,520942,143450,144134,696.54,1.0095418418322049,0.9952544160295281,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP07222,Agricultural,260300,117509,117442,53.2,2.2724442278535846,1.0005704943716898,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP07794,Electronics,260300,63853,63089,1231.97,0.7622058214748354,1.0121098765236411,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP07803,Machinery,100610,67468,66523,37.35,1.8264632510493608,1.0142056130962223,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP00011,Minerals,520942,53984,54136,21.54,21.984394598380817,0.9971922565390867,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP02126,Agricultural,260300,110578,110793,43.51,1.1738747111836998,0.9980594441887123,True,False,False,False,30,Medium,Unusual price vs peer commodities
+SHP02158,Textiles,260300,93291,93372,1128.92,0.017871407427768486,0.9991325022490682,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09569,Textiles,100610,81549,82054,2584.05,0.007159391985547526,0.9938455163672704,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09859,Agricultural,260300,85488,86285,834.77,0.05695720066924977,0.9907631685692763,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09829,Textiles,847130,85494,85356,1181.91,0.01714923115564094,1.0016167580486433,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09790,Agricultural,100610,82046,81759,1496.78,0.0472950844459307,1.0035103169070072,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09786,Minerals,260300,96989,97211,2572.82,0.011667454621945296,0.9977163078252461,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00234,Electronics,843890,95373,94515,2555.02,0.011253449548127152,1.0090779241390255,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00232,Electronics,847130,81559,81296,357.36,0.21490248429896244,1.0032350915174177,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00219,Minerals,260300,80388,80460,2342.67,0.01386452210511937,0.9991051454138703,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00176,Textiles,260300,87879,87777,1388.98,0.014078489001188278,1.0011620356129738,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00158,Agricultural,847130,88300,88251,392.9,0.11333288924296325,1.000555234501592,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09686,Machinery,843890,92694,91944,263.16,0.07540877373687496,1.008157139128165,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09549,Minerals,100610,89108,88154,2987.64,0.06936173935840469,1.0108219706422852,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09533,Minerals,100610,85913,85018,2595.34,0.07389016055149393,1.0105271824790045,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01911,Electronics,260300,95153,94554,1147.2,0.017814366190263938,1.0063350043361465,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01876,Agricultural,260300,92404,91800,878.08,0.09142845111235509,1.0065795206971677,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01873,Minerals,100610,84618,85438,2959.35,0.043127362182917905,0.9904023970598562,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01867,Machinery,520942,91728,91976,2149.7,0.014209170835676861,0.9973036444289815,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02309,Agricultural,100610,97480,97059,2956.58,0.015881756626814472,1.0043375678710886,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02299,Electronics,260300,95636,96560,533.78,0.06180318981128572,0.9904308202154101,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02295,Agricultural,260300,90265,90641,1630.0,0.08720834742282982,0.9958517668604715,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02279,Electronics,843890,80186,81163,1433.33,0.028268747363421783,0.987962495225657,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02255,Machinery,520942,94006,94635,1331.9,0.024799850281779546,0.9933534104718128,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02251,Electronics,843890,89624,89729,522.06,0.10803886342016296,0.9988298097605011,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02234,Agricultural,847130,95947,96184,1149.0,0.6473239284581808,0.9975359727189553,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02162,Machinery,847130,95351,95760,1629.95,0.028370194214629767,0.9957289055973266,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09732,Textiles,260300,85802,85373,1532.21,0.015304414138395507,1.005025007906481,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09755,Agricultural,843890,97918,97789,1791.91,0.07143069999102356,1.0013191667774495,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02125,Electronics,843890,88845,89401,2229.7,0.01611899985674419,0.993780830192056,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02109,Agricultural,847130,96956,96471,607.25,0.06725529034694853,1.0050274175659006,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00629,Minerals,260300,8729,9669,1662.65,0.00972231967931604,0.9027820870824284,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07901,Electronics,260300,98709,99258,2441.44,0.008327630790263468,0.9944689596808318,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07887,Machinery,847130,87449,87191,1505.8,0.04725368391122539,1.0029590209998738,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07760,Textiles,847130,86703,85863,1668.96,0.10048417091814739,1.0097830264491108,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07704,Textiles,520942,94960,95112,374.53,0.12489874008264415,0.9984018840945412,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07692,Agricultural,847130,91624,91721,661.81,0.02856883381817057,0.9989424450234952,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07672,Minerals,520942,96814,96434,1073.82,0.05031166270218207,1.003940518904121,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07617,Minerals,843890,95868,96168,1909.69,0.0898046832447241,0.9968804591964063,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07607,Machinery,847130,92895,93125,2292.05,0.010488928718100816,0.9975302013422819,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07579,Agricultural,847130,95687,94779,1682.39,0.03034985872838079,1.0095801812637821,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07444,Minerals,520942,82908,82365,534.89,0.04441263423414428,1.0065926060826806,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07433,Agricultural,520942,9917,9043,1665.87,0.01570724421048987,1.0966493420325114,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07263,Agricultural,843890,97221,97970,52.45,0.45655022141659657,0.9923548024905583,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07228,Textiles,843890,80681,80662,1908.46,0.06347664747631213,1.0002355508169893,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07209,Minerals,847130,96605,96712,1473.91,0.01944906548352676,0.9988936223012657,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07205,Agricultural,847130,98462,98680,1385.61,0.01898487827701897,0.9977908390758006,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07197,Agricultural,843890,81218,80466,897.44,0.024243140484918685,1.009345562100763,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07177,Agricultural,260300,96588,96389,2496.03,0.04999567219721662,1.0020645509342352,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07078,Minerals,100610,90426,90444,1618.57,0.02546391702470026,0.9998009818230065,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06873,Electronics,843890,90030,89275,1476.82,0.013481217855875596,1.008457014841781,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06858,Electronics,100610,93833,93128,2647.06,0.009159691593682864,1.0075702259256079,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06794,Electronics,843890,84171,84269,1886.95,0.014649229991266173,0.9988370575181859,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06726,Agricultural,260300,96282,96417,193.53,0.20020292269817946,0.9985998319798376,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06715,Textiles,260300,98258,98800,2820.07,0.007060262923837761,0.9945141700404858,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06665,Electronics,100610,91670,92505,1085.24,0.0676841303684214,0.9909734608940057,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00915,Textiles,520942,80379,81305,2342.51,0.10033097651214878,0.988610786544493,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00589,Electronics,847130,91005,90689,2022.74,0.1540786057051868,1.0034844358191182,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00567,Machinery,847130,82986,83348,2305.18,0.007619003549906993,0.9956567644094639,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00450,Minerals,843890,96683,96919,237.53,0.15412150732852287,0.9975649769395062,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08519,Electronics,100610,82495,82481,2914.55,0.008329764864556024,1.000169736060426,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08504,Agricultural,260300,8002,8268,2103.09,0.0016163456180488527,0.9678277697145622,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08455,Minerals,847130,92937,93464,1902.04,0.09543310241898173,0.9943614653770436,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08422,Machinery,847130,93279,93510,1636.98,0.0158990987650604,0.9975296759704845,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08413,Minerals,100610,85222,85065,574.71,0.062410337592603435,1.0018456474460706,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08273,Minerals,100610,85984,85530,418.64,0.07504160696839658,1.0053080790365954,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08125,Minerals,260300,97161,97793,2113.9,0.010291740293975091,0.9935373697503911,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08118,Electronics,520942,85024,85695,1951.5,0.012761727306034849,0.9921699048952681,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08079,Electronics,843890,92563,92909,2152.16,0.0177871582908623,0.996275925905994,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP07981,Minerals,260300,83262,83958,34.89,0.5388156345450051,0.991710140784678,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00689,Electronics,260300,83518,84418,2187.97,0.013840266763212353,0.9893387666137553,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00909,Electronics,260300,96428,96555,868.05,0.02655013550404122,0.9986846874838176,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00868,Electronics,847130,82924,83812,841.62,0.021817765135520726,0.9894048584928172,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06605,Machinery,843890,89281,88817,2470.29,0.008526046346768961,1.0052242250920431,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06595,Electronics,260300,81863,81284,1875.03,0.008832605323402156,1.0071231730721912,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06534,Machinery,847130,8305,8661,464.66,0.007274433736793311,0.9588962013624293,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06518,Electronics,520942,85166,84902,1007.66,0.19747333555803667,1.0031094673859273,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06451,Minerals,520942,93205,93685,815.39,0.032372490515047835,0.9948764476703847,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06386,Machinery,260300,96765,96128,1285.78,0.02001537770102625,1.0066265812250332,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06367,Minerals,260300,97272,97712,606.51,0.04341631789935722,0.9954969706893728,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06346,Electronics,100610,96072,95895,1037.57,0.1218332510729777,1.0018457688096356,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06312,Minerals,100610,93314,93747,2349.72,0.02270601306247143,0.9953811855312703,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01021,Machinery,260300,84415,83555,980.71,0.0226693163964049,1.0102926216264736,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06268,Machinery,520942,84664,85132,2300.52,0.01731049590996802,0.994502654700935,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06191,Machinery,100610,82813,82463,1389.25,0.014322407841428794,1.0042443277591162,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06053,Textiles,100610,93650,92904,2477.73,0.0075699364992421175,1.0080297941961596,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06024,Agricultural,520942,91037,91487,2064.54,0.03221003434649613,0.9950812683769279,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP06022,Textiles,843890,97687,98465,2014.14,0.013211822596752536,0.992098715279541,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05991,Machinery,520942,83221,83547,1218.25,0.07071627623202852,0.9960980047159084,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05962,Machinery,100610,94015,93132,388.51,0.08310048873676579,1.0094811665163423,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05961,Textiles,100610,85832,86822,1561.01,0.035201609227670905,0.9885973601160996,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05953,Agricultural,100610,89039,89675,169.04,0.11356906372530715,0.9929077223306384,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05949,Electronics,847130,85777,85456,626.8,0.032161944692118666,1.003756319041378,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05937,Minerals,260300,90050,89645,1636.58,0.021637153069274974,1.0045178202911484,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05836,Machinery,100610,86784,86107,541.43,0.045432723446765626,1.007862310845808,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05808,Electronics,520942,94835,95284,2205.9,0.010153878775268018,0.9952877712942362,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05777,Agricultural,520942,94125,94144,2642.44,0.007763837647239645,0.9997981815091774,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01096,Machinery,843890,95555,96093,614.22,0.10699538767075424,0.9944012571155026,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01060,Electronics,100610,90481,90372,2825.74,0.017564610505708393,1.0012061257911742,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01055,Agricultural,260300,89739,88938,2986.47,0.010036245430820859,1.0090062740335963,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05719,Agricultural,843890,99151,99586,1369.88,0.015324863962794207,0.9956319161327898,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05712,Electronics,100610,85312,85375,1743.85,0.010089016065668907,0.9992620790629575,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05655,Agricultural,260300,87186,87456,1248.06,0.04940397341086379,0.9969127332601537,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05654,Machinery,100610,81723,82564,1194.67,0.24784905127521115,0.9898139625018167,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05645,Agricultural,843890,84114,83256,403.52,0.22222882134022312,1.0103055635629865,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05628,Minerals,520942,95771,96264,203.98,0.27360822659381345,0.9948786669990859,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05509,Agricultural,847130,85614,85589,2306.35,0.009111681895853074,1.0002920936101602,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05444,Minerals,843890,84222,84101,1096.58,0.029460777110951155,1.0014387462693666,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05342,Textiles,847130,96579,97260,1242.45,0.027555017916154015,0.9929981492905614,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05321,Minerals,100610,98726,99357,2793.64,0.008195630100589733,0.9936491641253259,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05289,Minerals,843890,92206,91572,1647.75,0.01215173324727514,1.0069235137378238,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05234,Electronics,843890,97312,96450,1234.91,0.03599857664457168,1.0089372731985484,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01198,Minerals,843890,80088,79738,2065.65,0.0119443410529946,1.0043893752037925,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05152,Agricultural,843890,98984,98607,2977.94,0.07676462987627838,1.0038232579837132,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05126,Textiles,520942,92843,93348,2438.01,0.018134032420274067,0.9945901358357973,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05121,Machinery,843890,88943,88227,2783.44,0.015834660190609976,1.0081154295170414,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05073,Minerals,260300,96258,96193,1501.81,0.021479443401923252,1.0006757248448432,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP05000,Minerals,843890,9214,8725,874.48,0.006014011092410718,1.0560458452722064,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04975,Agricultural,843890,84948,85579,1098.65,0.03858300783405655,0.9926266958015401,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04887,Electronics,100610,97221,97882,2289.81,0.01587812560880561,0.993246970842443,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04885,Minerals,260300,92601,92993,1761.95,0.028255900491482588,0.9957846289505662,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04695,Agricultural,847130,93601,94006,1623.06,0.046771665735790544,0.9956917643554667,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04691,Minerals,260300,92473,92501,646.19,0.050247531294496994,0.9996973005697236,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04632,Textiles,843890,9014,8984,847.75,0.0038316582580811423,1.0033392698130008,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01293,Agricultural,520942,90015,90311,603.62,0.07554472010763026,0.996722436912447,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01276,Minerals,100610,98034,97688,2578.1,0.009964800268541579,1.0035418884612235,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01224,Electronics,100610,9646,10351,795.1,0.003940177758958747,0.9318906385856439,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04513,Minerals,847130,83255,83751,2387.44,0.02046483600639906,0.9940776826545354,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04466,Machinery,520942,94022,93134,503.81,0.16500613687977014,1.0095346490003652,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04403,Machinery,843890,82049,82017,1030.53,0.3652213517636823,1.0003901630149847,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04325,Electronics,843890,89718,89348,2392.87,0.008527152170239161,1.0041411111608542,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04238,Agricultural,843890,80048,80750,2817.83,0.030029255190064653,0.9913065015479876,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04227,Textiles,100610,96528,97480,2480.57,0.007961054988767133,0.9902338941321297,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04224,Textiles,843890,99550,100424,2229.03,0.01711793100831387,0.9912969011391699,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04157,Electronics,843890,96511,97131,2773.47,0.009999403626868686,0.993616867941234,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04125,Agricultural,100610,84821,84569,1236.59,0.0337230393700989,1.0029798152987501,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04073,Agricultural,847130,84109,85067,2146.27,0.018741488534008834,0.9887382886430696,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04061,Textiles,847130,86709,86468,1294.44,0.03277188040906672,1.002787158255077,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01421,Minerals,100610,85140,84954,2971.17,0.01660218898282249,1.0021894201567907,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01385,Textiles,847130,98899,99694,1947.69,0.011646235736043183,0.9920255983308925,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01384,Minerals,100610,92594,92315,2333.02,0.01414918803993404,1.0030222607376915,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04017,Machinery,260300,84726,83971,2501.04,0.01594179174404624,1.0089911993426302,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP04010,Textiles,843890,9957,9540,983.76,0.0023488909413120645,1.0437106918238994,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03983,Agricultural,843890,88545,87927,2462.92,0.015344100991436354,1.0070285577808864,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03932,Electronics,843890,96092,95470,2788.33,0.009410760506755371,1.006515135644705,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03917,Electronics,520942,89192,89294,1039.8,0.03250399175344954,0.9988577060048828,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03901,Electronics,847130,89406,88893,194.28,0.28077576340444715,1.005770983092032,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03876,Machinery,843890,96265,96605,2529.19,0.02707083416925823,0.9964805134309819,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03860,Agricultural,843890,81407,81880,498.23,0.27600069109512537,0.9942232535417684,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03838,Minerals,520942,93094,92531,1223.25,0.016591197250103603,1.0060844473743935,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03732,Textiles,520942,80753,81303,454.04,0.05715114847813597,0.9932351819736049,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03699,Textiles,100610,99944,100761,2454.53,0.009804522586002005,0.9918917041315588,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01493,Machinery,100610,94001,93867,422.88,0.09300738352037512,1.001427551748751,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08872,Agricultural,100610,88198,88724,1849.15,0.03032200203873675,0.9940715026373924,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08868,Minerals,520942,80719,80497,2976.23,0.045735621973267346,1.0027578667527983,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08815,Minerals,847130,85410,85259,71.2,0.25942444889389993,1.0017710740215109,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00416,Agricultural,520942,90774,90995,2085.31,0.010244814904368089,0.9975712951261059,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00387,Agricultural,100610,87152,87667,2688.74,0.09912445148130387,0.994125497621682,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00381,Machinery,843890,81240,82058,233.77,0.09126078458932017,0.9900314411757537,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00331,Machinery,100610,91120,91986,1508.95,0.01541254756945292,0.9905855238840693,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08725,Minerals,100610,87178,86709,1656.97,0.027661883208748243,1.00540889642367,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08648,Machinery,520942,84235,83807,2235.32,0.007826301684414118,1.005106971971315,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08563,Agricultural,843890,86815,87165,2433.61,0.021477026640723304,0.9959846268571101,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08562,Minerals,520942,80539,81261,1360.67,0.0191493668134742,0.9911150490395146,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08561,Electronics,520942,84328,84484,2394.71,0.010540043346140742,0.9981534965200511,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08543,Machinery,100610,99308,100133,996.79,0.5162062448438763,0.9917609579259585,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01488,Textiles,843890,95450,95692,223.79,0.23294152381925312,0.9974710529615851,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01466,Minerals,847130,89335,89034,741.75,1.881846140883047,1.003380730956713,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01442,Minerals,847130,85093,85273,948.59,0.047039706154437935,0.9978891325507487,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03659,Textiles,847130,87460,87018,2241.96,0.012694600931358135,1.0050794088579373,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03570,Agricultural,847130,82700,83099,2717.95,0.008248127985374146,0.9951984981768733,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03567,Agricultural,260300,87581,86663,715.0,0.05937513770766316,1.0105927558473629,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03554,Textiles,847130,88254,87999,77.55,0.30526477449132916,1.0028977602018205,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03514,Textiles,520942,82981,82382,1649.5,0.02392142635479245,1.0072710058022383,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03449,Electronics,100610,97342,98341,96.8,0.24798993182582468,0.9898414699870858,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03402,Textiles,260300,94608,94683,777.77,0.04370825495637534,0.9992078831469219,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03324,Textiles,847130,85420,85880,1967.08,0.017089638623726068,0.9946436888681882,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03315,Machinery,260300,97464,97021,1104.09,0.6538919431890113,1.0045660217890973,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03311,Agricultural,847130,87372,86949,242.87,0.0790307586424583,1.0048649208156506,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03277,Textiles,520942,81695,81295,1768.66,0.25379305597097596,1.0049203518051542,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01632,Agricultural,520942,82865,83327,2264.36,0.10515899242697893,0.9944555786239754,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01616,Machinery,847130,94627,93703,716.91,0.05766398350320251,1.0098609436197348,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01568,Machinery,260300,87911,87059,1116.34,0.015844930737839078,1.0097864666490541,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01566,Agricultural,100610,81830,81498,1599.33,0.09023840461588352,1.004073719600481,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03084,Agricultural,847130,82916,82394,2005.09,0.01611564974000094,1.0063354127727746,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03049,Textiles,843890,8888,9170,2942.06,0.0010168335536346854,0.969247546346783,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03047,Machinery,847130,9902,10082,276.42,0.008991541013921833,0.982146399523904,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02953,Electronics,520942,85249,85046,1999.21,0.1040032764161356,1.0023869435364392,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01735,Minerals,847130,87018,87670,633.43,0.03670207699937842,0.9925630204174746,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09505,Agricultural,843890,99280,98848,2314.99,0.04457974470803901,1.0043703463904177,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09467,Textiles,843890,97669,97382,292.89,0.15431119348709407,1.002947156558707,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00280,Textiles,843890,99848,100709,679.54,0.04852532731657117,0.9914506151386668,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00250,Electronics,843890,95536,96119,2523.41,0.011681542759303824,0.9939346018997285,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09367,Minerals,520942,99315,99843,2641.02,0.016855575553013334,0.9947116973648629,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09273,Minerals,843890,90506,90386,2457.56,0.008542701248989249,1.001327639236165,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09246,Agricultural,520942,88665,89401,862.89,0.02124762976237709,0.9917674298945202,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09187,Agricultural,260300,83895,84632,1480.52,0.016107419320596714,0.9912917099914926,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09098,Minerals,847130,80328,80377,72.27,0.3781893661500461,0.9993903728678603,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09011,Electronics,100610,85508,84704,1392.91,0.018129955516050414,1.0094918775972799,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08876,Textiles,843890,92929,92361,2184.96,0.1042431700638662,1.006149781834324,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01675,Electronics,260300,99817,98964,1425.11,0.05157703300664521,1.0086192959055817,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02788,Machinery,260300,99096,99704,1243.55,0.05757802747727407,0.9939019497713231,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02775,Textiles,100610,8926,9888,2501.44,0.012055218356388883,0.9027103559870551,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02764,Minerals,847130,91488,91609,252.83,0.3644066389020099,0.998679169077274,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02745,Minerals,100610,9840,9841,1380.3,0.002366827697541357,0.9998983843105376,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02656,Machinery,843890,97305,97842,832.41,0.024656300408441672,0.9945115594529956,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02653,Machinery,520942,88562,89124,2339.57,0.3235381591233307,0.9936941788968179,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02636,Textiles,843890,95894,96841,1216.75,0.02452134046278168,0.990221084044981,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02588,Textiles,100610,83346,83349,171.72,0.4452843010918136,0.9999640067667278,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02453,Machinery,847130,81992,82521,2507.6,0.12110148112700356,0.99358951054883,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02448,Textiles,100610,88031,87565,2715.88,0.01001960898177458,1.0053217609775595,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02331,Minerals,847130,83872,83827,372.24,0.13199589911252776,1.0005368198790365,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01922,Agricultural,520942,93890,93142,334.03,0.10210044950840248,1.0080307487492217,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP08969,Electronics,520942,9470,9682,289.02,0.007102947876378346,0.978103697583144,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02089,Machinery,260300,97024,97110,568.01,0.04344198731474628,0.999114406343322,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02010,Electronics,100610,95266,95528,1750.26,0.040021784998665745,0.997257348630768,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02008,Electronics,520942,97162,98028,2105.99,0.013735046602728139,0.9911657893663035,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP01961,Electronics,847130,82219,81733,372.61,0.2152751094618646,1.0059461906451495,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09885,Textiles,100610,80406,80345,2207.41,0.05519014262292584,1.0007592258385711,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09867,Textiles,260300,84401,83785,2512.82,0.011211001307059747,1.0073521513397385,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00053,Agricultural,520942,87986,88616,121.69,0.18244611120279797,0.9928906743703169,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00035,Electronics,260300,98179,98394,535.45,0.03987775625100756,0.9978149074130537,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00034,Textiles,847130,81213,80438,1937.08,0.012026814531814606,1.0096347497451452,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP00025,Textiles,260300,94045,93188,965.74,0.3942562054530733,1.0091964630639139,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP02388,Minerals,520942,84397,83905,1350.02,0.15512498794705845,1.0058637745068828,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP09647,Minerals,100610,91454,91020,2161.5,0.032849714728241115,1.0047681828169632,False,False,True,False,20,Medium,Value pattern statistically unusual (Benford)
+SHP03895,Textiles,847130,128000,127229,292.52,0.22555511227710573,1.006059939164813,False,False,False,True,15,Medium,Suspiciously round declared value
+SHP09991,Electronics,843890,143827,143857,1642.7,0.0549280077883834,0.9997914595744385,False,False,False,False,0,Low,No flags
+SHP00004,Textiles,260300,128855,128541,1150.47,0.04004363651610337,1.0024428003516388,False,False,False,False,0,Low,No flags
+SHP00005,Minerals,847130,16394,15414,44.73,0.23226246650442012,1.0635785649409628,False,False,False,False,0,Low,No flags
+SHP00202,Textiles,260300,50272,50518,1567.58,0.007793393588994325,0.995130448552991,False,False,False,False,0,Low,No flags
+SHP00190,Machinery,520942,79131,79518,1517.01,0.02459334158655929,0.9951331773937976,False,False,False,False,0,Low,No flags
+SHP00178,Agricultural,843890,59615,60355,1396.47,0.2571673620085619,0.9877392096760832,False,False,False,False,0,Low,No flags
+SHP00173,Electronics,847130,102883,103882,2893.74,0.010149484265464167,0.990383319535627,False,False,False,False,0,Low,No flags
+SHP00137,Textiles,843890,62492,63027,2165.99,0.006912187847418544,0.9915115744046202,False,False,False,False,0,Low,No flags
+SHP00136,Textiles,520942,133575,133961,275.56,0.10000828666829006,0.9971185643582834,False,False,False,False,0,Low,No flags
+SHP00132,Minerals,260300,104608,104866,401.17,0.06386414032367034,0.997539717353575,False,False,False,False,0,Low,No flags
+SHP00103,Agricultural,843890,78698,79041,2526.28,0.011602135189156024,0.9956604800040485,False,False,False,False,0,Low,No flags
+SHP09772,Textiles,843890,138499,137915,2094.04,0.0301182218985001,1.0042344922597253,False,False,False,False,0,Low,No flags
+SHP09770,Agricultural,520942,34944,34099,701.18,0.14361956990903685,1.0247807853602744,False,False,False,False,0,Low,No flags
+SHP09763,Minerals,843890,112691,113347,1659.04,0.04876197182542779,0.9942124626148023,False,False,False,False,0,Low,No flags
+SHP09747,Agricultural,847130,13057,13559,403.06,0.008931535895423446,0.9629766206947415,False,False,False,False,0,Low,No flags
+SHP09743,Electronics,847130,48510,49048,722.71,0.013740503357040634,0.989031153156092,False,False,False,False,0,Low,No flags
+SHP09741,Textiles,520942,51272,50436,2063.68,0.007376762826474414,1.0165754619716076,False,False,False,False,0,Low,No flags
+SHP09740,Textiles,260300,100269,99576,884.74,0.024728693049124922,1.0069595083152567,False,False,False,False,0,Low,No flags
+SHP09723,Agricultural,843890,60394,59689,797.54,0.01881842829723268,1.0118112214980985,False,False,False,False,0,Low,No flags
+SHP02076,Electronics,100610,73831,72904,1111.97,0.014917226566429865,1.0127153516953802,False,False,False,False,0,Low,No flags
+SHP02074,Agricultural,260300,55374,56225,2361.59,0.008329577935785308,0.9848643841707425,False,False,False,False,0,Low,No flags
+SHP02060,Minerals,100610,108693,109157,2984.29,0.008336399279314129,0.9957492419176049,False,False,False,False,0,Low,No flags
+SHP02057,Textiles,520942,103231,103161,2315.08,0.10875776510067398,1.0006785510028013,False,False,False,False,0,Low,No flags
+SHP02050,Agricultural,843890,28233,28993,2729.86,0.005859653606534503,0.9737867761183734,False,False,False,False,0,Low,No flags
+SHP02037,Machinery,100610,78065,77125,1037.56,0.016801925484948788,1.0121880064829822,False,False,False,False,0,Low,No flags
+SHP02024,Textiles,843890,100066,100472,923.47,0.03478609649788872,0.9959590731746158,False,False,False,False,0,Low,No flags
+SHP02011,Minerals,100610,53167,53906,1302.93,0.17290560375851713,0.986290950914555,False,False,False,False,0,Low,No flags
+SHP01968,Textiles,260300,76908,77444,719.99,0.06497454394895794,0.993078869893084,False,False,False,False,0,Low,No flags
+SHP01958,Machinery,847130,144066,143782,931.22,0.11720206727831134,1.0019752124744405,False,False,False,False,0,Low,No flags
+SHP01940,Minerals,843890,104806,105540,959.96,0.2982990866878105,0.9930452908849725,False,False,False,False,0,Low,No flags
+SHP09981,Minerals,100610,64185,63396,640.08,0.033729070949885046,1.0124455801627863,False,False,False,False,0,Low,No flags
+SHP09963,Agricultural,520942,10720,10185,2258.37,0.0016085348692104426,1.0525282277859598,False,False,False,False,0,Low,No flags
+SHP09955,Machinery,843890,142464,142109,1849.09,0.02661328691102138,1.0024980824578316,False,False,False,False,0,Low,No flags
+SHP09953,Machinery,843890,118393,118521,797.52,0.0321393049347109,0.9989200226120266,False,False,False,False,0,Low,No flags
+SHP09947,Machinery,843890,53038,53961,2719.54,0.01715264989748221,0.9828950538351773,False,False,False,False,0,Low,No flags
+SHP02261,Machinery,520942,43977,43007,1420.63,0.0354999820146986,1.0225544678773224,False,False,False,False,0,Low,No flags
+SHP02247,Electronics,260300,42535,42000,734.74,0.04365854210296982,1.0127380952380953,False,False,False,False,0,Low,No flags
+SHP02227,Machinery,843890,108434,108334,254.94,0.2144888807551091,1.0009230712426385,False,False,False,False,0,Low,No flags
+SHP02210,Textiles,100610,39001,38972,116.77,0.08675284636576065,1.0007441239864519,False,False,False,False,0,Low,No flags
+SHP02198,Electronics,520942,56188,55753,368.0,0.03299865628024544,1.0078022707298262,False,False,False,False,0,Low,No flags
+SHP02197,Electronics,100610,46514,46310,2723.64,0.01699291648847741,1.004405096091557,False,False,False,False,0,Low,No flags
+SHP02186,Textiles,100610,128355,127916,1165.39,0.045795881524693334,1.003431939710435,False,False,False,False,0,Low,No flags
+SHP02179,Minerals,100610,62402,62557,859.92,0.031238577509657917,0.9975222596991544,False,False,False,False,0,Low,No flags
+SHP02170,Agricultural,520942,34949,34730,2178.64,0.01965889585371842,1.0063057875035992,False,False,False,False,0,Low,No flags
+SHP02142,Agricultural,843890,148954,149866,1450.0,0.02528973327221175,0.9939145636768847,False,False,False,False,0,Low,No flags
+SHP02122,Machinery,843890,138866,139334,2184.63,0.012854397831431075,0.9966411643963426,False,False,False,False,0,Low,No flags
+SHP02116,Minerals,100610,47399,48197,1752.25,0.006408520212733559,0.9834429528808847,False,False,False,False,0,Low,No flags
+SHP02114,Textiles,847130,142095,142592,619.68,0.17720543604097802,0.9965145309694794,False,False,False,False,0,Low,No flags
+SHP02106,Electronics,520942,54460,53776,2023.07,0.040911069536303,1.012719428741446,False,False,False,False,0,Low,No flags
+SHP02095,Textiles,260300,104846,104323,2792.47,0.05959678070748199,1.0050132760752661,False,False,False,False,0,Low,No flags
+SHP02092,Minerals,100610,112535,111804,189.69,0.2717624461754715,1.0065382276126078,False,False,False,False,0,Low,No flags
+SHP02318,Agricultural,520942,148463,148473,601.73,0.1053938220122582,0.9999326476867848,False,False,False,False,0,Low,No flags
+SHP01928,Minerals,260300,18155,17980,216.25,0.022653469299901113,1.0097330367074526,False,False,False,False,0,Low,No flags
+SHP01908,Minerals,843890,36275,35365,2192.98,0.03504537823387447,1.0257316555916867,False,False,False,False,0,Low,No flags
+SHP01899,Textiles,260300,12101,11971,1730.81,0.004430623700666785,1.010859577311837,False,False,False,False,0,Low,No flags
+SHP01896,Textiles,520942,74690,73955,2324.32,0.03630975090606659,1.0099384761003314,False,False,False,False,0,Low,No flags
+SHP01895,Textiles,843890,21708,21208,664.29,0.01472004452630384,1.0235760090531876,False,False,False,False,0,Low,No flags
+SHP01875,Machinery,843890,65684,65696,1865.27,0.011625686666897951,0.9998173404773503,False,False,False,False,0,Low,No flags
+SHP01860,Minerals,843890,118591,119309,1414.27,0.19455488149404288,0.9939820130920551,False,False,False,False,0,Low,No flags
+SHP01853,Machinery,847130,45264,45595,1696.72,0.009972842599443104,0.9927404320649194,False,False,False,False,0,Low,No flags
+SHP01835,Textiles,100610,22667,23106,1849.63,0.002972321952246969,0.9810006059032286,False,False,False,False,0,Low,No flags
+SHP01816,Textiles,847130,45244,44795,1202.88,0.011605387838497488,1.0100234401160844,False,False,False,False,0,Low,No flags
+SHP01804,Agricultural,847130,68721,68445,366.46,0.34282743309898817,1.0040324348016656,False,False,False,False,0,Low,No flags
+SHP02316,Machinery,843890,55650,55192,1428.19,0.15524065244145285,1.0082983041020437,False,False,False,False,0,Low,No flags
+SHP02315,Agricultural,100610,44821,45334,1662.26,0.005605798863171356,0.9886839899413243,False,False,False,False,0,Low,No flags
+SHP02314,Agricultural,520942,37862,37414,2847.08,0.00894319936038669,1.0119741273320149,False,False,False,False,0,Low,No flags
+SHP02286,Textiles,843890,146328,146850,1351.74,0.39079995250405697,0.9964453524004085,False,False,False,False,0,Low,No flags
+SHP02451,Agricultural,843890,54956,55369,687.29,0.02297713341237106,0.9925409525185573,False,False,False,False,0,Low,No flags
+SHP02431,Minerals,260300,139400,139632,245.57,0.18376785885120334,0.9983384897444711,False,False,False,False,0,Low,No flags
+SHP02429,Electronics,260300,32663,32610,2372.57,0.01760476706672026,1.0016252683226003,False,False,False,False,0,Low,No flags
+SHP02400,Electronics,100610,79363,79080,996.28,0.056536077159481814,1.0035786545270613,False,False,False,False,0,Low,No flags
+SHP02379,Minerals,100610,117259,117566,116.51,0.485962642556923,0.9973887008148614,False,False,False,False,0,Low,No flags
+SHP02370,Agricultural,843890,48441,47636,278.59,1.0474649234073306,1.0168989839617095,False,False,False,False,0,Low,No flags
+SHP02358,Minerals,100610,15556,15462,1476.78,0.06053867119718219,1.0060794205148105,False,False,False,False,0,Low,No flags
+SHP02355,Textiles,100610,64117,63943,2376.66,0.011222036411702252,1.0027211735451886,False,False,False,False,0,Low,No flags
+SHP02351,Minerals,847130,30379,29382,2468.86,0.003015899375960295,1.0339323395276019,False,False,False,False,0,Low,No flags
+SHP02348,Electronics,260300,54506,53585,975.19,0.011293735670487522,1.0171876457963982,False,False,False,False,0,Low,No flags
+SHP02347,Machinery,520942,49379,48658,1580.05,0.011801942096941175,1.0148177072629372,False,False,False,False,0,Low,No flags
+SHP02345,Agricultural,847130,128675,128882,1882.71,0.02077374754967049,0.9983938796728791,False,False,False,False,0,Low,No flags
+SHP02344,Electronics,520942,56656,56604,2416.79,0.011037036574692946,1.0009186629920146,False,False,False,False,0,Low,No flags
+SHP02338,Textiles,843890,13951,13814,168.59,0.02455520856086342,1.0099174750253366,False,False,False,False,0,Low,No flags
+SHP02328,Textiles,260300,23459,24088,510.26,0.012496493934142502,0.9738874128196613,False,False,False,False,0,Low,No flags
+SHP02325,Electronics,520942,148946,148216,2157.01,0.014394844162020744,1.004925244238139,False,False,False,False,0,Low,No flags
+SHP02561,Electronics,843890,73305,72922,1298.64,0.01550755887985605,1.0052521872685884,False,False,False,False,0,Low,No flags
+SHP02560,Minerals,847130,120037,120846,1222.67,0.04735944175000335,0.9933055293514059,False,False,False,False,0,Low,No flags
+SHP02545,Textiles,847130,126410,126357,935.54,0.029026815004307642,1.0004194464889162,False,False,False,False,0,Low,No flags
+SHP02544,Minerals,847130,13583,12879,540.99,0.0422688097136793,1.0546626290861092,False,False,False,False,0,Low,No flags
+SHP02541,Machinery,520942,120999,121055,892.04,0.04491490744779954,0.9995374003552104,False,False,False,False,0,Low,No flags
+SHP02535,Electronics,260300,11309,12203,2417.69,0.007012901773492722,0.9267393263951488,False,False,False,False,0,Low,No flags
+SHP02532,Machinery,260300,25311,26055,794.88,0.048466578798373516,0.9714450201496834,False,False,False,False,0,Low,No flags
+SHP02510,Agricultural,100610,118565,118505,2487.09,0.01357794905526717,1.000506307750728,False,False,False,False,0,Low,No flags
+SHP02501,Minerals,847130,126097,126151,462.6,0.27786261493230874,0.9995719415620962,False,False,False,False,0,Low,No flags
+SHP02495,Machinery,520942,106154,106968,537.52,0.6269475096681526,0.9923902475506694,False,False,False,False,0,Low,No flags
+SHP02483,Textiles,520942,19987,20212,2906.98,0.0027327187199591672,0.9888679992083911,False,False,False,False,0,Low,No flags
+SHP02471,Minerals,260300,24965,25602,1763.08,0.012497686939214795,0.9751191313178658,False,False,False,False,0,Low,No flags
+SHP02468,Agricultural,847130,133802,134659,2072.73,0.03647091048158027,0.993635776294195,False,False,False,False,0,Low,No flags
+SHP02464,Agricultural,260300,51051,51619,24.47,0.4542279339635812,0.9889962998120847,False,False,False,False,0,Low,No flags
+SHP02458,Machinery,260300,30257,30155,1233.44,0.014662630686747473,1.0033825236279224,False,False,False,False,0,Low,No flags
+SHP02456,Electronics,843890,119049,118291,2945.52,0.013160850607434795,1.0064079262158574,False,False,False,False,0,Low,No flags
+SHP02671,Electronics,847130,102148,101822,644.62,0.04417684692265844,1.0032016656518237,False,False,False,False,0,Low,No flags
+SHP02670,Machinery,843890,21923,22177,2017.19,0.005790137867321263,0.9885466925192767,False,False,False,False,0,Low,No flags
+SHP02669,Textiles,847130,79681,80551,1543.46,0.021166429123765405,0.9891993892068379,False,False,False,False,0,Low,No flags
+SHP02660,Textiles,260300,77131,78064,2487.32,0.008271454015084594,0.988048268087723,False,False,False,False,0,Low,No flags
+SHP02641,Agricultural,847130,41479,41739,2302.62,0.007764580916670935,0.9937708138671266,False,False,False,False,0,Low,No flags
+SHP02623,Electronics,520942,54190,53810,1523.6,0.016255520097450328,1.0070618844081025,False,False,False,False,0,Low,No flags
+SHP02622,Minerals,100610,44883,44253,1124.33,0.2913852149156666,1.014236322961155,False,False,False,False,0,Low,No flags
+SHP02617,Electronics,260300,43930,43689,128.59,0.08281901368455533,1.005516262674815,False,False,False,False,0,Low,No flags
+SHP02611,Textiles,260300,148404,147545,558.77,0.06909221992850097,1.005821952624623,False,False,False,False,0,Low,No flags
+SHP02610,Electronics,100610,29204,29133,2920.54,0.0034902340790906117,1.002437098822641,False,False,False,False,0,Low,No flags
+SHP02604,Minerals,520942,37827,37230,2220.69,0.009323423574446207,1.0160354552780015,False,False,False,False,0,Low,No flags
+SHP02601,Minerals,520942,21531,21358,1335.13,0.0037364503046695085,1.0081000093641728,False,False,False,False,0,Low,No flags
+SHP02594,Machinery,520942,119892,120080,2738.71,0.009374050242335367,0.9984343770819454,False,False,False,False,0,Low,No flags
+SHP02587,Minerals,520942,29641,29541,865.7,0.21670470812381284,1.0033851257574218,False,False,False,False,0,Low,No flags
+SHP02576,Agricultural,843890,133259,134146,2643.62,0.021708774413619056,0.9933878013507671,False,False,False,False,0,Low,No flags
+SHP02565,Electronics,520942,109319,109194,2258.27,0.05564171821283803,1.001144751543125,False,False,False,False,0,Low,No flags
+SHP02789,Minerals,847130,141475,141366,245.25,0.25558721603239576,1.0007710482011234,False,False,False,False,0,Low,No flags
+SHP02776,Textiles,260300,69546,68855,1348.98,0.02039339709271196,1.0100355820201874,False,False,False,False,0,Low,No flags
+SHP02772,Machinery,260300,49802,50700,2024.26,0.005222366974315835,0.9822879684418145,False,False,False,False,0,Low,No flags
+SHP02770,Agricultural,847130,144598,144522,2840.68,0.021307074418471062,1.0005258714936134,False,False,False,False,0,Low,No flags
+SHP02766,Electronics,520942,142867,143263,720.36,0.07307561727201575,0.9972358529417924,False,False,False,False,0,Low,No flags
+SHP02762,Minerals,260300,123409,122981,1956.18,0.06605940341360891,1.003480212390532,False,False,False,False,0,Low,No flags
+SHP02761,Electronics,843890,58565,58471,590.85,0.22374697966410637,1.0016076345538814,False,False,False,False,0,Low,No flags
+SHP02755,Machinery,520942,51809,51222,500.83,0.03213615382931559,1.0114599195658116,False,False,False,False,0,Low,No flags
+SHP02737,Machinery,843890,75459,75917,1606.69,0.012693378513791908,0.9939670956439269,False,False,False,False,0,Low,No flags
+SHP02720,Machinery,843890,122350,122127,1298.19,0.01888709516800492,1.0018259680496533,False,False,False,False,0,Low,No flags
+SHP02719,Textiles,520942,113712,112947,2178.56,0.017639724888795522,1.0067730882626365,False,False,False,False,0,Low,No flags
+SHP02710,Textiles,260300,12085,11796,2438.04,0.001431374699652343,1.0244998304510002,False,False,False,False,0,Low,No flags
+SHP02708,Minerals,520942,116789,115866,2188.85,0.018827215478383105,1.007966098769268,False,False,False,False,0,Low,No flags
+SHP02706,Electronics,843890,119190,119679,217.46,0.17235874218463945,0.9959140701376181,False,False,False,False,0,Low,No flags
+SHP02691,Textiles,260300,103524,103277,1703.13,0.014559174968834238,1.0023916264027808,False,False,False,False,0,Low,No flags
+SHP02680,Agricultural,260300,148914,148842,746.82,0.12293307346948842,1.000483734429798,False,False,False,False,0,Low,No flags
+SHP02915,Electronics,843890,15985,16252,178.55,0.04002089548913058,0.98357125276889,False,False,False,False,0,Low,No flags
+SHP02913,Textiles,100610,49377,48393,2847.64,0.003852393152939273,1.0203335193106442,False,False,False,False,0,Low,No flags
+SHP02899,Electronics,260300,14009,14917,2131.32,0.07732849347159616,0.9391298518468861,False,False,False,False,0,Low,No flags
+SHP02898,Agricultural,847130,19040,19186,2738.29,0.0016586938318528816,0.9923902845825081,False,False,False,False,0,Low,No flags
+SHP02858,Textiles,260300,146587,145931,543.03,0.12805632294244945,1.00449527516429,False,False,False,False,0,Low,No flags
+SHP02857,Textiles,100610,25191,25544,848.5,0.03155033230486756,0.9861807077983088,False,False,False,False,0,Low,No flags
+SHP02854,Minerals,847130,147463,147245,1796.15,0.10802564549614159,1.0014805256545214,False,False,False,False,0,Low,No flags
+SHP02847,Agricultural,847130,47706,48636,1108.75,0.008835078443129021,0.9808783617073773,False,False,False,False,0,Low,No flags
+SHP02840,Machinery,847130,100909,100034,1728.26,0.05503075104778421,1.0087470260111562,False,False,False,False,0,Low,No flags
+SHP02825,Textiles,100610,16651,16669,2217.02,0.024464274123051053,0.9989201511788349,False,False,False,False,0,Low,No flags
+SHP02824,Textiles,520942,110109,110863,144.47,0.2518698722879366,0.9931988129493158,False,False,False,False,0,Low,No flags
+SHP02821,Minerals,843890,12472,12796,809.5,0.012102939028727498,0.9746795873710534,False,False,False,False,0,Low,No flags
+SHP02818,Textiles,847130,14946,15154,1245.83,0.002898483062618422,0.9862742510228323,False,False,False,False,0,Low,No flags
+SHP02803,Textiles,260300,132067,133015,1310.99,0.18864863912062568,0.9928729842498967,False,False,False,False,0,Low,No flags
+SHP02795,Electronics,260300,144280,143360,2696.26,0.01590700353834028,1.0064174107142858,False,False,False,False,0,Low,No flags
+SHP02790,Textiles,520942,15988,15437,1739.48,0.00674834989591468,1.0356934637559112,False,False,False,False,0,Low,No flags
+SHP02947,Electronics,520942,17343,16888,273.28,0.019617429027505802,1.0269422074846044,False,False,False,False,0,Low,No flags
+SHP01800,Machinery,520942,132192,131822,2380.97,0.014892765330017247,1.0028068152508687,False,False,False,False,0,Low,No flags
+SHP01797,Agricultural,520942,115282,115209,2891.51,0.1014481784229892,1.0006336310531296,False,False,False,False,0,Low,No flags
+SHP01793,Machinery,847130,14586,13660,141.89,0.3821484835234164,1.0677891654465592,False,False,False,False,0,Low,No flags
+SHP01791,Agricultural,520942,130983,131277,1776.63,0.01885081476592554,0.9977604607052264,False,False,False,False,0,Low,No flags
+SHP01765,Textiles,843890,61298,62280,2811.34,0.045806380915993705,0.9842324983943481,False,False,False,False,0,Low,No flags
+SHP01729,Textiles,843890,111918,111876,2336.77,0.08552556367488945,1.000375415638743,False,False,False,False,0,Low,No flags
+SHP01710,Agricultural,260300,21285,20974,1421.74,0.0070089380902622405,1.014827882139792,False,False,False,False,0,Low,No flags
+SHP01707,Minerals,520942,60090,61028,1022.99,0.020459622822001394,0.9846300058989317,False,False,False,False,0,Low,No flags
+SHP01701,Textiles,520942,142022,141723,2249.83,0.14958686820634556,1.0021097492996902,False,False,False,False,0,Low,No flags
+SHP01699,Textiles,520942,122771,121985,1872.41,0.014325636560286575,1.0064434151739967,False,False,False,False,0,Low,No flags
+SHP01686,Minerals,520942,101171,101799,357.07,0.10133640939432617,0.9938309806579633,False,False,False,False,0,Low,No flags
+SHP01670,Minerals,520942,68545,68162,2518.08,0.005587261235448031,1.0056189665796191,False,False,False,False,0,Low,No flags
+SHP01668,Agricultural,100610,15663,16630,2766.78,0.002011760270431134,0.9418520745640409,False,False,False,False,0,Low,No flags
+SHP01666,Electronics,100610,33887,33461,485.35,0.019695265932150513,1.012731239353277,False,False,False,False,0,Low,No flags
+SHP02917,Machinery,847130,107061,106222,2434.3,0.06534947941562509,1.0078985520890211,False,False,False,False,0,Low,No flags
+SHP03094,Minerals,520942,59598,58636,1384.81,0.011713922405404024,1.0164063032949042,False,False,False,False,0,Low,No flags
+SHP03092,Machinery,847130,147775,147430,2390.99,0.013613423507152118,1.002340093603744,False,False,False,False,0,Low,No flags
+SHP03077,Textiles,260300,34107,34068,1869.17,0.026522000624328843,1.0011447692849595,False,False,False,False,0,Low,No flags
+SHP03071,Agricultural,843890,121338,120675,601.76,0.11042635651013324,1.005494095711622,False,False,False,False,0,Low,No flags
+SHP03069,Machinery,843890,113262,114047,880.68,0.028617587829479745,0.9931168728682035,False,False,False,False,0,Low,No flags
+SHP03051,Machinery,843890,140233,139639,2610.62,0.044652002133137456,1.00425382593688,False,False,False,False,0,Low,No flags
+SHP03028,Agricultural,847130,25729,26646,1557.48,0.035834347681167146,0.9655858290174886,False,False,False,False,0,Low,No flags
+SHP03014,Minerals,260300,105837,106295,1658.8,0.9522888331431821,0.9956912366527118,False,False,False,False,0,Low,No flags
+SHP03010,Agricultural,100610,14305,14776,2738.58,0.003441047427029372,0.9681239848402815,False,False,False,False,0,Low,No flags
+SHP03008,Textiles,520942,45653,46629,845.69,0.031754787076059714,0.9790688198331511,False,False,False,False,0,Low,No flags
+SHP02988,Machinery,847130,58778,57986,105.76,0.12155900614541186,1.0136584692856896,False,False,False,False,0,Low,No flags
+SHP02986,Electronics,100610,68109,69045,1527.97,0.011429443087132703,0.9864436237236585,False,False,False,False,0,Low,No flags
+SHP02983,Machinery,843890,12871,12669,932.26,0.004995019649897361,1.0159444312889732,False,False,False,False,0,Low,No flags
+SHP02965,Textiles,520942,57232,57061,1644.52,0.007024958467658006,1.0029967929058377,False,False,False,False,0,Low,No flags
+SHP02952,Textiles,100610,59780,59451,406.38,0.2218758613092517,1.0055339691510656,False,False,False,False,0,Low,No flags
+SHP02951,Textiles,100610,121829,120899,736.2,0.10246660325005909,1.0076923713182078,False,False,False,False,0,Low,No flags
+SHP03223,Agricultural,843890,122602,123345,294.72,0.083415849721763,0.9939762454902915,False,False,False,False,0,Low,No flags
+SHP03219,Electronics,843890,147923,147585,2804.71,0.017162683074106445,1.0022902056442051,False,False,False,False,0,Low,No flags
+SHP03217,Agricultural,100610,64924,64622,34.61,0.6846255565139817,1.0046733310637244,False,False,False,False,0,Low,No flags
+SHP03189,Agricultural,847130,65325,65971,2058.77,0.008179971821903541,0.9902078185869548,False,False,False,False,0,Low,No flags
+SHP03188,Agricultural,100610,60084,60480,826.68,0.054037981999211074,0.993452380952381,False,False,False,False,0,Low,No flags
+SHP03179,Textiles,847130,73774,74359,1209.81,0.22669079285515017,0.9921327613335306,False,False,False,False,0,Low,No flags
+SHP03166,Machinery,843890,148893,148594,1084.02,0.05556336240706339,1.0020121943012503,False,False,False,False,0,Low,No flags
+SHP03149,Textiles,260300,28631,28470,1868.85,0.003363362601377891,1.0056550755180893,False,False,False,False,0,Low,No flags
+SHP03146,Electronics,843890,122538,122587,1177.21,0.025173368380778,0.9996002838800199,False,False,False,False,0,Low,No flags
+SHP03143,Machinery,843890,111154,111240,2252.94,0.011253948530772993,0.9992268967997123,False,False,False,False,0,Low,No flags
+SHP03137,Machinery,847130,121377,120905,1105.09,0.029367511528932508,1.0039038914850502,False,False,False,False,0,Low,No flags
+SHP03135,Agricultural,260300,76442,76593,1445.97,0.02604214308420505,0.9980285404671445,False,False,False,False,0,Low,No flags
+SHP03116,Textiles,100610,148563,149433,1016.99,0.03421102632549334,0.9941779928128325,False,False,False,False,0,Low,No flags
+SHP03115,Machinery,843890,52155,52672,2820.96,0.006162795644036073,0.9901845382746051,False,False,False,False,0,Low,No flags
+SHP03114,Agricultural,843890,143709,143644,2156.13,0.02612754271543432,1.0004525075882043,False,False,False,False,0,Low,No flags
+SHP03101,Textiles,100610,26622,26239,2661.53,0.0032773647932646116,1.0145965928579594,False,False,False,False,0,Low,No flags
+SHP01660,Agricultural,260300,129296,129053,2606.18,0.015241569433231485,1.001882947316219,False,False,False,False,0,Low,No flags
+SHP01650,Machinery,260300,75333,75116,2594.98,0.006397153270955424,1.0028888652217902,False,False,False,False,0,Low,No flags
+SHP01647,Textiles,260300,11563,12095,2653.02,0.00657379979147359,0.9560148821827201,False,False,False,False,0,Low,No flags
+SHP01644,Machinery,100610,50678,51465,760.17,0.030707815138952863,0.9847080540172933,False,False,False,False,0,Low,No flags
+SHP01629,Minerals,100610,37664,37883,2859.77,0.00287623715187159,0.9942190428424359,False,False,False,False,0,Low,No flags
+SHP01628,Electronics,100610,107454,106780,1446.42,0.05763353407292667,1.0063120434538304,False,False,False,False,0,Low,No flags
+SHP01613,Textiles,260300,20329,20928,1637.3,0.03373960045568128,0.9713780581039755,False,False,False,False,0,Low,No flags
+SHP01607,Electronics,843890,103453,102851,811.28,0.04088433561296777,1.0058531273395495,False,False,False,False,0,Low,No flags
+SHP01591,Agricultural,520942,22084,21506,146.96,0.109928443969944,1.026876220589603,False,False,False,False,0,Low,No flags
+SHP01589,Agricultural,843890,20797,20833,1692.33,0.010686064671835256,0.9982719723515576,False,False,False,False,0,Low,No flags
+SHP03269,Electronics,847130,20451,20802,2336.54,0.003428392320775372,0.98312662244015,False,False,False,False,0,Low,No flags
+SHP03266,Agricultural,843890,65574,64819,1083.53,0.014002512645342587,1.0116478193122387,False,False,False,False,0,Low,No flags
+SHP03253,Textiles,520942,122257,121671,1374.72,0.03231551296027132,1.0048162668178942,False,False,False,False,0,Low,No flags
+SHP03239,Textiles,847130,148103,148881,2315.82,0.018240937013297997,0.9947743499842155,False,False,False,False,0,Low,No flags
+SHP03235,Electronics,847130,66262,65655,203.99,0.07275020123453123,1.0092452973878607,False,False,False,False,0,Low,No flags
+SHP03234,Agricultural,847130,117421,118272,1846.76,0.013360404606497199,0.9928047213203464,False,False,False,False,0,Low,No flags
+SHP03401,Agricultural,847130,139210,138811,1658.7,0.017093110362850106,1.0028744119702329,False,False,False,False,0,Low,No flags
+SHP03386,Agricultural,847130,65275,65358,2941.09,0.00711123117849527,0.9987300712996113,False,False,False,False,0,Low,No flags
+SHP03384,Machinery,260300,111373,110692,2579.34,0.011071506465677066,1.0061522061214903,False,False,False,False,0,Low,No flags
+SHP03383,Agricultural,260300,145938,145623,1318.21,0.04809262351005155,1.002163119836839,False,False,False,False,0,Low,No flags
+SHP03379,Agricultural,843890,38264,37561,1968.58,0.018564814651741417,1.0187162216128431,False,False,False,False,0,Low,No flags
+SHP03375,Electronics,100610,119746,119872,2566.02,0.03032231522608524,0.9989488788040577,False,False,False,False,0,Low,No flags
+SHP03372,Machinery,100610,143480,144474,2896.57,0.017921291376980546,0.993119869319047,False,False,False,False,0,Low,No flags
+SHP03363,Agricultural,520942,12787,11868,1200.61,0.017261619724722052,1.0774351196494776,False,False,False,False,0,Low,No flags
+SHP03355,Machinery,847130,143312,143153,2994.06,0.07621885388270475,1.0011106997408368,False,False,False,False,0,Low,No flags
+SHP03354,Machinery,260300,120152,121087,498.5,0.06260443668668343,0.9922782792537597,False,False,False,False,0,Low,No flags
+SHP03353,Agricultural,843890,77082,76194,2166.92,0.013322902055151235,1.0116544609811797,False,False,False,False,0,Low,No flags
+SHP03317,Electronics,100610,49560,49186,281.72,0.23676898054997284,1.007603789696255,False,False,False,False,0,Low,No flags
+SHP03294,Minerals,100610,63277,64225,863.41,0.014926133249276285,0.9852393927598287,False,False,False,False,0,Low,No flags
+SHP03289,Textiles,520942,44237,44698,881.95,0.02041439651281479,0.9896863394335317,False,False,False,False,0,Low,No flags
+SHP03270,Machinery,843890,36604,36383,1559.92,0.017723040719881986,1.0060742654536459,False,False,False,False,0,Low,No flags
+SHP01663,Electronics,843890,7365,7664,2138.01,0.0010956717938215429,0.9609864300626305,False,False,False,False,0,Low,No flags
+SHP03536,Agricultural,843890,76451,75698,317.05,0.19399220717233984,1.0099474226531744,False,False,False,False,0,Low,No flags
+SHP03526,Textiles,100610,51923,52066,2855.76,0.0043044152498597195,0.9972534859601275,False,False,False,False,0,Low,No flags
+SHP03522,Machinery,847130,123116,122719,765.37,0.2978854574814699,1.0032350328799942,False,False,False,False,0,Low,No flags
+SHP03518,Machinery,100610,18261,17990,819.35,0.012443985963870736,1.0150639244024457,False,False,False,False,0,Low,No flags
+SHP03516,Electronics,847130,107715,107394,930.74,0.02328112935335235,1.0029889937985361,False,False,False,False,0,Low,No flags
+SHP03512,Agricultural,843890,34644,34022,1073.92,0.009681688527616052,1.0182822879313385,False,False,False,False,0,Low,No flags
+SHP03504,Electronics,100610,13560,13145,730.22,0.005253110637599403,1.0315709395207304,False,False,False,False,0,Low,No flags
+SHP03460,Agricultural,843890,15721,15060,78.62,0.06037495222540514,1.043891102257636,False,False,False,False,0,Low,No flags
+SHP03458,Electronics,847130,31285,30679,381.29,0.01691063640273375,1.0197529254538935,False,False,False,False,0,Low,No flags
+SHP03457,Machinery,843890,57088,57928,1063.23,0.01741582617870614,0.9854992404364038,False,False,False,False,0,Low,No flags
+SHP03456,Minerals,260300,37887,36950,1794.24,0.006029669967692543,1.0253585926928281,False,False,False,False,0,Low,No flags
+SHP03455,Machinery,520942,115709,115619,1088.05,0.033611029276734705,1.0007784187720012,False,False,False,False,0,Low,No flags
+SHP03440,Machinery,520942,78299,77334,319.56,0.08297368075143281,1.0124783407039595,False,False,False,False,0,Low,No flags
+SHP03426,Agricultural,260300,55058,55676,1619.16,0.03509190039575363,0.9889000646598175,False,False,False,False,0,Low,No flags
+SHP03423,Machinery,100610,39620,39003,105.26,0.5423649741192523,1.0158192959515935,False,False,False,False,0,Low,No flags
+SHP03420,Electronics,100610,43380,43710,1938.71,0.014662977347092609,0.9924502402196294,False,False,False,False,0,Low,No flags
+SHP03621,Textiles,100610,27547,27829,2933.4,0.002529851643262026,0.9898666858313271,False,False,False,False,0,Low,No flags
+SHP03618,Textiles,847130,140724,141041,2069.38,0.018221590765539572,0.9977524265993576,False,False,False,False,0,Low,No flags
+SHP03606,Agricultural,100610,10618,10711,1335.93,0.0016260272562719292,0.9913173373167772,False,False,False,False,0,Low,No flags
+SHP03602,Machinery,847130,38532,38432,1560.82,0.006334879006326386,1.002601998334721,False,False,False,False,0,Low,No flags
+SHP03595,Minerals,100610,115299,115989,2046.02,0.022532115783905106,0.9940511600237953,False,False,False,False,0,Low,No flags
+SHP03592,Minerals,847130,127111,126568,1691.09,1.1218676146613202,1.0042901839327476,False,False,False,False,0,Low,No flags
+SHP03582,Textiles,100610,100865,100300,1920.87,0.011781480939080546,1.0056331006979062,False,False,False,False,0,Low,No flags
+SHP03579,Agricultural,843890,33845,33861,2607.08,0.003492589944918064,0.9995274799917309,False,False,False,False,0,Low,No flags
+SHP03575,Textiles,100610,65911,65836,495.65,0.027866495510099645,1.0011391943617474,False,False,False,False,0,Low,No flags
+SHP03562,Textiles,260300,106347,107143,852.4,0.03184324882522495,0.9925706765724313,False,False,False,False,0,Low,No flags
+SHP03555,Electronics,847130,16226,16778,851.49,0.003927454184695415,0.9670997735129336,False,False,False,False,0,Low,No flags
+SHP03553,Electronics,847130,58493,57864,377.1,0.044153914660121744,1.010870316604452,False,False,False,False,0,Low,No flags
+SHP03546,Machinery,520942,141977,141163,1852.97,0.028913704169573354,1.0057663835424298,False,False,False,False,0,Low,No flags
+SHP03541,Electronics,843890,25152,25831,2703.12,0.0030882188311863778,0.9737137547907553,False,False,False,False,0,Low,No flags
+SHP03540,Machinery,847130,47673,47098,1371.56,0.007096413128381853,1.0122085863518622,False,False,False,False,0,Low,No flags
+SHP03537,Minerals,100610,121773,121265,1110.07,1.1670051859869295,1.0041891724735084,False,False,False,False,0,Low,No flags
+SHP03669,Electronics,260300,137309,138252,476.18,0.06456678097074875,0.9931791221826809,False,False,False,False,0,Low,No flags
+SHP01554,Electronics,260300,28798,29599,2686.71,0.01999754790814733,0.972938274941721,False,False,False,False,0,Low,No flags
+SHP01546,Machinery,260300,20305,19834,2233.79,0.009053717487166373,1.0237471009377836,False,False,False,False,0,Low,No flags
+SHP01544,Machinery,843890,20668,21061,2847.77,0.001846249958016528,0.9813399173828403,False,False,False,False,0,Low,No flags
+SHP01529,Minerals,843890,20624,21372,120.08,0.036754154766356635,0.9650009358038555,False,False,False,False,0,Low,No flags
+SHP01513,Electronics,100610,62788,61980,1903.83,0.0138164371112115,1.0130364633752824,False,False,False,False,0,Low,No flags
+SHP01507,Minerals,100610,41719,41494,2397.07,0.004853364263949389,1.005422470718658,False,False,False,False,0,Low,No flags
+SHP01504,Minerals,520942,137783,136791,1388.03,0.02427020673985771,1.00725193908956,False,False,False,False,0,Low,No flags
+SHP01481,Agricultural,847130,137154,137746,191.07,0.16225603390291526,0.9957022345476456,False,False,False,False,0,Low,No flags
+SHP01479,Machinery,520942,52289,51842,427.79,0.03048903309380491,1.0086223525326954,False,False,False,False,0,Low,No flags
+SHP01452,Minerals,847130,110494,110092,26.62,1.4457641520518796,1.003651491479853,False,False,False,False,0,Low,No flags
+SHP01433,Agricultural,100610,133431,132899,1101.89,0.14162906381109458,1.0040030399024824,False,False,False,False,0,Low,No flags
+SHP01430,Minerals,260300,79935,79938,362.09,0.0453585436688379,0.999962470914959,False,False,False,False,0,Low,No flags
+SHP03664,Machinery,843890,131003,130921,723.1,0.39384473853517166,1.0006263319100832,False,False,False,False,0,Low,No flags
+SHP03637,Minerals,843890,79038,79359,2541.27,0.03351484046193032,0.9959550901599062,False,False,False,False,0,Low,No flags
+SHP03622,Agricultural,847130,127225,127800,2978.67,0.014923834998401643,0.9955007824726134,False,False,False,False,0,Low,No flags
+SHP03785,Minerals,260300,122415,121815,2972.84,0.25108412387793094,1.0049255017854943,False,False,False,False,0,Low,No flags
+SHP03768,Machinery,520942,108001,108788,2008.4,0.013809616457309706,0.9927657462220097,False,False,False,False,0,Low,No flags
+SHP03767,Textiles,520942,24462,23644,383.98,0.029236550272560134,1.034596514972086,False,False,False,False,0,Low,No flags
+SHP03763,Minerals,843890,25881,26679,111.95,0.05133989875441086,0.9700888339143147,False,False,False,False,0,Low,No flags
+SHP03733,Agricultural,520942,15998,16729,413.19,0.01171505755064128,0.9563034251897902,False,False,False,False,0,Low,No flags
+SHP03725,Machinery,100610,47905,47793,2998.8,0.006284312833447042,1.002343439415814,False,False,False,False,0,Low,No flags
+SHP03724,Electronics,100610,21982,21924,1009.66,0.006220481576542033,1.0026455026455026,False,False,False,False,0,Low,No flags
+SHP03722,Textiles,843890,47810,46879,1272.34,0.017244806779280173,1.019859638644169,False,False,False,False,0,Low,No flags
+SHP03721,Textiles,260300,134826,135282,845.03,0.03883927261226277,0.9966292633166275,False,False,False,False,0,Low,No flags
+SHP03715,Agricultural,520942,122621,123518,2796.75,0.03684378551635189,0.9927379005489079,False,False,False,False,0,Low,No flags
+SHP03713,Electronics,847130,65722,66366,662.11,0.0463838560862561,0.9902962360244704,False,False,False,False,0,Low,No flags
+SHP03710,Minerals,100610,15669,15830,1551.65,0.0024958681348235183,0.989829437776374,False,False,False,False,0,Low,No flags
+SHP03707,Machinery,847130,36048,36210,1000.06,0.07751792956938712,0.9955260977630489,False,False,False,False,0,Low,No flags
+SHP03692,Machinery,260300,58173,58323,218.48,0.17798285969958702,0.9974281158376627,False,False,False,False,0,Low,No flags
+SHP03680,Agricultural,260300,33922,34909,1939.01,0.013467663289630841,0.9717264888710647,False,False,False,False,0,Low,No flags
+SHP03679,Electronics,847130,19695,20098,2415.45,0.0021830683183166333,0.9799482535575679,False,False,False,False,0,Low,No flags
+SHP03922,Electronics,100610,137371,136783,1751.94,0.022212688477016865,1.0042987798191296,False,False,False,False,0,Low,No flags
+SHP03907,Minerals,520942,145712,146692,132.15,0.6818959826905343,0.9933193357510975,False,False,False,False,0,Low,No flags
+SHP03903,Agricultural,260300,31690,30891,400.69,0.020114082454967624,1.0258651387135411,False,False,False,False,0,Low,No flags
+SHP03874,Minerals,260300,108278,108882,2290.34,0.021958174777328983,0.9944527102735071,False,False,False,False,0,Low,No flags
+SHP03870,Electronics,100610,23537,23403,272.9,0.049739163658479586,1.0057257616544888,False,False,False,False,0,Low,No flags
+SHP03867,Textiles,100610,128411,127550,411.15,0.10280498260430909,1.006750294002352,False,False,False,False,0,Low,No flags
+SHP03846,Electronics,100610,110004,109937,2722.47,0.052956690545943944,1.0006094399519725,False,False,False,False,0,Low,No flags
+SHP03837,Agricultural,520942,135489,134587,2695.9,0.07626316835529656,1.0067019845898935,False,False,False,False,0,Low,No flags
+SHP03832,Agricultural,843890,131486,131949,335.55,0.09580737970248458,0.9964910685188975,False,False,False,False,0,Low,No flags
+SHP03829,Minerals,847130,114655,114742,794.67,0.37281657778801397,0.999241777204511,False,False,False,False,0,Low,No flags
+SHP03821,Machinery,520942,44212,45126,74.64,0.2632606883410742,0.9797456012055135,False,False,False,False,0,Low,No flags
+SHP03811,Agricultural,260300,148004,148521,2834.3,0.017719338318885617,0.9965190107796204,False,False,False,False,0,Low,No flags
+SHP03808,Agricultural,260300,146336,147175,2586.79,0.036567872379824645,0.9942993035501954,False,False,False,False,0,Low,No flags
+SHP03805,Machinery,260300,114267,113346,1059.68,0.032092740935268864,1.0081255624371395,False,False,False,False,0,Low,No flags
+SHP03803,Minerals,100610,132561,132447,1507.95,0.02124410032338514,1.0008607216471495,False,False,False,False,0,Low,No flags
+SHP04040,Minerals,847130,56516,55767,1760.05,0.030350143107401195,1.0134308820628688,False,False,False,False,0,Low,No flags
+SHP04039,Agricultural,847130,62398,62338,1899.65,0.013298422434731477,1.0009624947864866,False,False,False,False,0,Low,No flags
+SHP04029,Machinery,260300,31140,30367,2435.33,0.005187329865179648,1.0254552639378272,False,False,False,False,0,Low,No flags
+SHP04027,Agricultural,100610,133680,134150,448.96,0.07821245366930146,0.9964964591874768,False,False,False,False,0,Low,No flags
+SHP04022,Machinery,843890,54790,55578,1116.17,0.011038341486753872,0.9858217280218792,False,False,False,False,0,Low,No flags
+SHP04021,Agricultural,260300,110296,110894,512.87,0.32535014682732133,0.9946074629826681,False,False,False,False,0,Low,No flags
+SHP04012,Electronics,843890,18095,17866,1802.62,0.16730277780859712,1.0128176424493451,False,False,False,False,0,Low,No flags
+SHP03959,Electronics,847130,111643,112328,1275.26,0.027616809111382548,0.9939017876219642,False,False,False,False,0,Low,No flags
+SHP03956,Electronics,843890,115150,115154,1601.58,0.01814225358842196,0.9999652639074631,False,False,False,False,0,Low,No flags
+SHP03955,Textiles,520942,33715,34323,1900.79,0.012464765870529766,0.9822859307170119,False,False,False,False,0,Low,No flags
+SHP03948,Machinery,843890,40693,39862,933.92,0.07142992554562894,1.0208469218804876,False,False,False,False,0,Low,No flags
+SHP03945,Machinery,520942,132583,131745,2969.55,0.013012971586797876,1.0063607727048465,False,False,False,False,0,Low,No flags
+SHP03930,Machinery,100610,39654,40482,1291.6,0.033119153785325345,0.9795464650955981,False,False,False,False,0,Low,No flags
+SHP03927,Machinery,100610,129751,129646,1381.3,0.03577074456996012,1.0008098977214877,False,False,False,False,0,Low,No flags
+SHP03924,Agricultural,847130,43809,43725,2433.45,0.014471732701359053,1.0019210977701545,False,False,False,False,0,Low,No flags
+SHP03923,Electronics,520942,121505,121634,1186.98,0.0349248805930103,0.9989394412746436,False,False,False,False,0,Low,No flags
+SHP04056,Machinery,260300,51653,50835,640.8,0.02404027846194345,1.0160912756958789,False,False,False,False,0,Low,No flags
+SHP01427,Agricultural,843890,14808,14846,287.26,0.0849244139452678,0.9974403879832952,False,False,False,False,0,Low,No flags
+SHP01423,Machinery,520942,32032,32150,1838.87,0.00395625560568609,0.9963297045101088,False,False,False,False,0,Low,No flags
+SHP01418,Electronics,100610,78927,78233,2430.69,0.007301782492802344,1.0088709368169442,False,False,False,False,0,Low,No flags
+SHP01410,Minerals,843890,114934,114718,2693.04,0.017441014698914615,1.0018828780139124,False,False,False,False,0,Low,No flags
+SHP01383,Textiles,520942,108025,108841,2217.72,0.021004715968523772,0.992502825222113,False,False,False,False,0,Low,No flags
+SHP01366,Textiles,520942,63235,63212,773.05,0.25169035737563,1.0003638549642473,False,False,False,False,0,Low,No flags
+SHP01361,Minerals,520942,135439,135984,2765.76,0.014096114965465343,0.9959921755500647,False,False,False,False,0,Low,No flags
+SHP01358,Machinery,847130,124783,125128,1996.1,0.014477397205235713,0.9972428233488907,False,False,False,False,0,Low,No flags
+SHP01357,Agricultural,260300,116116,115278,1284.26,0.027888560620458944,1.0072693835770918,False,False,False,False,0,Low,No flags
+SHP01346,Textiles,843890,6214,6323,2481.58,0.010565611135929699,0.982761347461648,False,False,False,False,0,Low,No flags
+SHP01332,Machinery,260300,50215,50764,1348.38,0.02286125566535969,0.9891852493893311,False,False,False,False,0,Low,No flags
+SHP01331,Agricultural,843890,119515,119360,2916.64,0.016800715897882554,1.0012985924932976,False,False,False,False,0,Low,No flags
+SHP01316,Machinery,847130,113378,114142,1899.87,0.016234144375023473,0.9933065830281579,False,False,False,False,0,Low,No flags
+SHP04048,Textiles,843890,16070,16860,802.69,0.01468832145088954,0.9531435349940688,False,False,False,False,0,Low,No flags
+SHP04045,Machinery,520942,42343,42646,526.83,0.026499563273203675,0.9928949960136941,False,False,False,False,0,Low,No flags
+SHP04167,Machinery,520942,118693,118489,2557.48,0.014530412681495556,1.0017216788056276,False,False,False,False,0,Low,No flags
+SHP04165,Machinery,847130,75203,74264,1427.3,0.01805035738401902,1.0126440805773995,False,False,False,False,0,Low,No flags
+SHP04155,Agricultural,843890,140691,140158,509.11,0.07476919870606893,1.0038028510680803,False,False,False,False,0,Low,No flags
+SHP04144,Machinery,847130,54655,54704,2020.01,0.020206719005624308,0.9991042702544604,False,False,False,False,0,Low,No flags
+SHP04137,Electronics,100610,67515,67588,983.42,0.13541079139469686,0.9989199266141918,False,False,False,False,0,Low,No flags
+SHP04136,Textiles,260300,107111,107150,1845.01,0.014663912071048177,0.999636024265049,False,False,False,False,0,Low,No flags
+SHP04115,Textiles,260300,29587,29700,267.77,0.11521801954216307,0.9961952861952862,False,False,False,False,0,Low,No flags
+SHP04107,Electronics,520942,66378,66817,2069.48,0.015383560712363291,0.9934298157654489,False,False,False,False,0,Low,No flags
+SHP04096,Textiles,847130,5228,5596,1001.63,0.0020573481386160423,0.9342387419585418,False,False,False,False,0,Low,No flags
+SHP04095,Textiles,100610,72192,71338,1488.29,0.15697953218873006,1.0119711794555497,False,False,False,False,0,Low,No flags
+SHP04094,Agricultural,520942,44959,45045,628.75,0.052577476318559226,0.998090798090798,False,False,False,False,0,Low,No flags
+SHP04093,Minerals,100610,20360,19821,2459.14,0.0033945539809993614,1.0271933807577822,False,False,False,False,0,Low,No flags
+SHP04086,Electronics,520942,124612,125418,1860.39,0.017424988133271528,0.9935734902486086,False,False,False,False,0,Low,No flags
+SHP04078,Minerals,843890,114306,113924,2019.89,0.013662532679379476,1.0033531126013833,False,False,False,False,0,Low,No flags
+SHP04071,Electronics,843890,77799,77160,722.83,0.1719346910278419,1.0082814930015551,False,False,False,False,0,Low,No flags
+SHP04057,Agricultural,843890,143447,143914,2736.6,0.016349957547350673,0.9967550064621927,False,False,False,False,0,Low,No flags
+SHP04266,Agricultural,843890,16391,16183,47.42,0.13423527822024214,1.0128529938824693,False,False,False,False,0,Low,No flags
+SHP04262,Minerals,260300,116558,117012,1436.74,0.0215304451777433,0.9961200560626261,False,False,False,False,0,Low,No flags
+SHP04260,Agricultural,520942,65606,64780,1005.95,0.017451954289159056,1.0127508490274777,False,False,False,False,0,Low,No flags
+SHP04259,Electronics,843890,127393,127843,930.53,0.10926073427127822,0.996480057570614,False,False,False,False,0,Low,No flags
+SHP04252,Minerals,100610,47020,46421,820.12,0.01810327540536745,1.0129036427478944,False,False,False,False,0,Low,No flags
+SHP04250,Agricultural,520942,62428,62903,470.91,0.027710881280242357,0.9924486908414543,False,False,False,False,0,Low,No flags
+SHP04243,Machinery,100610,56810,57774,1893.98,0.021004927805608354,0.9833142936268909,False,False,False,False,0,Low,No flags
+SHP04241,Electronics,100610,56594,56791,440.96,0.028004081785180105,0.996531140497614,False,False,False,False,0,Low,No flags
+SHP04239,Textiles,260300,68832,69655,2035.85,0.007015969398052261,0.9881846242193669,False,False,False,False,0,Low,No flags
+SHP04225,Electronics,100610,124922,124480,1180.39,0.030738055071649045,1.0035507712082261,False,False,False,False,0,Low,No flags
+SHP04218,Textiles,520942,124432,123528,1070.01,0.03292483067891439,1.0073181788744252,False,False,False,False,0,Low,No flags
+SHP04211,Minerals,100610,44260,44183,1992.73,0.017244360268208477,1.0017427517370934,False,False,False,False,0,Low,No flags
+SHP04188,Machinery,843890,13871,14062,2340.59,0.0012931013624029627,0.9864172948371498,False,False,False,False,0,Low,No flags
+SHP04187,Machinery,520942,128013,128658,856.41,0.1281957995183652,0.9949867089493075,False,False,False,False,0,Low,No flags
+SHP04175,Machinery,847130,50540,49719,892.71,0.03404337342671403,1.0165128019469418,False,False,False,False,0,Low,No flags
+SHP04173,Minerals,520942,101636,101943,2870.82,0.0089628165163237,0.9969885131887427,False,False,False,False,0,Low,No flags
+SHP04390,Machinery,100610,52802,53640,421.63,0.04218020350809849,0.9843773303504847,False,False,False,False,0,Low,No flags
+SHP04388,Electronics,100610,58902,57909,2919.44,0.023569844786517757,1.0171475936382945,False,False,False,False,0,Low,No flags
+SHP04368,Textiles,100610,66859,66045,1307.81,0.022383042701391243,1.0123249299719888,False,False,False,False,0,Low,No flags
+SHP04366,Electronics,520942,72431,72765,1115.9,0.018345999403959548,0.9954098811241668,False,False,False,False,0,Low,No flags
+SHP04354,Machinery,520942,78627,79094,1223.47,0.02686687814003883,0.9940956330442259,False,False,False,False,0,Low,No flags
+SHP04346,Textiles,520942,27879,27172,2864.23,0.002522940911941956,1.0260194317679965,False,False,False,False,0,Low,No flags
+SHP04343,Electronics,100610,75343,76125,1529.86,0.012352219019265583,0.9897274220032841,False,False,False,False,0,Low,No flags
+SHP04332,Textiles,847130,63922,64697,1240.66,0.016942642779694334,0.9880210828941064,False,False,False,False,0,Low,No flags
+SHP04322,Machinery,843890,111786,110973,961.7,0.05025417727227792,1.0073261063501933,False,False,False,False,0,Low,No flags
+SHP04306,Agricultural,260300,15006,15653,2549.75,0.0021732950040139194,0.9586660704018399,False,False,False,False,0,Low,No flags
+SHP04305,Electronics,847130,130245,129442,2807.23,0.030423783365470296,1.0062035506249905,False,False,False,False,0,Low,No flags
+SHP04301,Machinery,847130,132233,131759,2117.84,0.029917428052423825,1.003597477212183,False,False,False,False,0,Low,No flags
+SHP04283,Electronics,260300,13312,13429,2445.23,0.001271681536117318,0.9912875121006777,False,False,False,False,0,Low,No flags
+SHP04277,Agricultural,260300,114339,115296,505.58,0.05407798183179589,0.9916996253122398,False,False,False,False,0,Low,No flags
+SHP04274,Textiles,260300,62847,62852,826.15,0.019200439642316467,0.9999204480366576,False,False,False,False,0,Low,No flags
+SHP04267,Textiles,843890,113553,113425,1458.22,0.03186209736997246,1.0011284990081553,False,False,False,False,0,Low,No flags
+SHP04586,Electronics,100610,14642,15364,1696.07,0.010710792067389303,0.9530070294194221,False,False,False,False,0,Low,No flags
+SHP04559,Agricultural,520942,125536,125744,1709.14,0.2720363154265585,0.9983458455274208,False,False,False,False,0,Low,No flags
+SHP04546,Machinery,843890,19274,18424,382.21,0.052256761975925936,1.0461354754667824,False,False,False,False,0,Low,No flags
+SHP04527,Machinery,100610,143227,143040,1535.76,0.03768134015047595,1.001307326621924,False,False,False,False,0,Low,No flags
+SHP04504,Minerals,520942,131023,130970,977.88,0.22146576486763234,1.000404672825838,False,False,False,False,0,Low,No flags
+SHP04497,Minerals,843890,144884,144555,2644.56,0.014790948496513417,1.002275950330324,False,False,False,False,0,Low,No flags
+SHP04489,Minerals,847130,133443,132732,1633.41,0.11252887219006064,1.0053566585299702,False,False,False,False,0,Low,No flags
+SHP04488,Minerals,843890,106694,105730,2217.64,0.017858762407282035,1.00911756360541,False,False,False,False,0,Low,No flags
+SHP04487,Textiles,260300,39594,39820,743.35,0.025160262912483126,0.9943244600703164,False,False,False,False,0,Low,No flags
+SHP04481,Electronics,847130,65519,65485,534.02,0.21080783748655565,1.0005192028708865,False,False,False,False,0,Low,No flags
+SHP04478,Electronics,260300,12308,11633,1006.46,0.00608407992824068,1.0580245852316685,False,False,False,False,0,Low,No flags
+SHP04464,Machinery,520942,115633,116614,1319.88,0.02645989791755686,0.991587630987703,False,False,False,False,0,Low,No flags
+SHP04460,Agricultural,843890,118700,118389,1165.79,0.08093749373961782,1.0026269332454874,False,False,False,False,0,Low,No flags
+SHP04447,Minerals,847130,70837,71483,2504.73,0.028337967731384882,0.9909628862806541,False,False,False,False,0,Low,No flags
+SHP04446,Machinery,260300,63581,63518,1496.83,0.008957634248853869,1.0009918448313864,False,False,False,False,0,Low,No flags
+SHP04409,Agricultural,520942,48311,47903,463.22,0.022124280027815104,1.0085172118656451,False,False,False,False,0,Low,No flags
+SHP04616,Minerals,520942,7663,7777,2915.55,0.0008475719306718014,0.9853413912819854,False,False,False,False,0,Low,No flags
+SHP01310,Textiles,847130,63541,64028,2707.23,0.008273124417522258,0.9923939526457175,False,False,False,False,0,Low,No flags
+SHP01304,Electronics,100610,102805,103656,749.36,0.051848224669984955,0.9917901520413676,False,False,False,False,0,Low,No flags
+SHP01299,Agricultural,847130,120042,120039,2732.83,0.014676209044658786,1.0000249918776398,False,False,False,False,0,Low,No flags
+SHP01298,Textiles,520942,33016,32802,728.55,0.06548758857862816,1.0065239924394853,False,False,False,False,0,Low,No flags
+SHP01292,Electronics,520942,119780,120131,860.45,0.15197186604653143,0.9970781896429731,False,False,False,False,0,Low,No flags
+SHP01283,Electronics,260300,138071,137435,671.83,0.05191078251255218,1.004627642158111,False,False,False,False,0,Low,No flags
+SHP01282,Minerals,100610,67613,67194,976.32,0.03517161446538022,1.0062356758043873,False,False,False,False,0,Low,No flags
+SHP01261,Agricultural,843890,32453,32318,1020.91,0.008867031104841829,1.004177238690513,False,False,False,False,0,Low,No flags
+SHP01258,Machinery,260300,122373,122499,2004.47,0.03551486511416617,0.9989714201748585,False,False,False,False,0,Low,No flags
+SHP01251,Electronics,260300,35552,36422,2070.66,0.003833312106281287,0.9761133380923618,False,False,False,False,0,Low,No flags
+SHP01239,Textiles,847130,122969,123213,778.5,0.04218918970845753,0.9980196894808178,False,False,False,False,0,Low,No flags
+SHP01231,Textiles,847130,128916,128718,1298.37,0.04639749955353798,1.001538246399105,False,False,False,False,0,Low,No flags
+SHP01219,Machinery,260300,19497,19968,1187.43,0.008394424438529382,0.9764122596153846,False,False,False,False,0,Low,No flags
+SHP04607,Electronics,520942,117642,117068,1575.88,0.12804738116645306,1.0049031332217173,False,False,False,False,0,Low,No flags
+SHP04603,Electronics,260300,125807,125200,864.21,0.08439105564955109,1.0048482428115015,False,False,False,False,0,Low,No flags
+SHP04746,Minerals,843890,123174,123182,1701.97,0.014514927477648591,0.9999350554464126,False,False,False,False,0,Low,No flags
+SHP04745,Machinery,520942,69748,69080,338.96,0.47087092082444676,1.0096699478865083,False,False,False,False,0,Low,No flags
+SHP04736,Agricultural,843890,109780,110605,1227.3,0.021450451469672466,0.9925410243659871,False,False,False,False,0,Low,No flags
+SHP04716,Machinery,100610,124771,125213,2010.72,0.23240785196589725,0.9964700150942793,False,False,False,False,0,Low,No flags
+SHP04712,Textiles,100610,110293,110928,620.57,0.03719726661589485,0.9942755661329872,False,False,False,False,0,Low,No flags
+SHP04708,Electronics,100610,51306,52158,629.11,0.028615194899394212,0.9836650178304382,False,False,False,False,0,Low,No flags
+SHP04681,Electronics,260300,120400,120742,2473.47,0.08645924619558314,0.9971675142038396,False,False,False,False,0,Low,No flags
+SHP04675,Electronics,843890,37791,37094,915.34,0.0243864725266586,1.0187901008249312,False,False,False,False,0,Low,No flags
+SHP04657,Minerals,847130,11069,11685,1013.77,0.004585741363681658,0.9472828412494652,False,False,False,False,0,Low,No flags
+SHP04656,Minerals,843890,20960,20590,1863.56,0.004162579619860837,1.017969888295289,False,False,False,False,0,Low,No flags
+SHP04652,Minerals,260300,31576,30889,1506.22,0.005880431146447746,1.0222409271909094,False,False,False,False,0,Low,No flags
+SHP04648,Electronics,843890,55570,56215,2115.7,0.013559906346116696,0.9885261940763141,False,False,False,False,0,Low,No flags
+SHP04643,Agricultural,520942,142115,141472,1900.54,0.018426839887061126,1.0045450689889166,False,False,False,False,0,Low,No flags
+SHP04641,Electronics,260300,118921,119515,2995.84,0.012094874341943476,0.9950299125632766,False,False,False,False,0,Low,No flags
+SHP04625,Electronics,520942,142994,142984,2741.95,0.011622571172368326,1.0000699378951492,False,False,False,False,0,Low,No flags
+SHP04619,Textiles,843890,114809,114726,1332.26,0.032543852635208204,1.0007234628593344,False,False,False,False,0,Low,No flags
+SHP04878,Textiles,520942,38094,37220,281.13,0.047279535244179174,1.023481998925309,False,False,False,False,0,Low,No flags
+SHP04874,Agricultural,100610,49143,48357,302.67,0.08106088463696565,1.016254110056455,False,False,False,False,0,Low,No flags
+SHP04873,Textiles,260300,16900,15909,420.77,0.1131393250536324,1.062291784524483,False,False,False,False,0,Low,No flags
+SHP04847,Machinery,260300,118089,118694,262.16,0.20710174360485303,0.9949028594537214,False,False,False,False,0,Low,No flags
+SHP04843,Machinery,847130,7925,8106,1075.28,0.0037526340886950903,0.9776708610905502,False,False,False,False,0,Low,No flags
+SHP04825,Textiles,260300,38923,38606,1681.1,0.016633112418866412,1.0082111588872196,False,False,False,False,0,Low,No flags
+SHP04824,Machinery,843890,134443,133949,508.22,0.30940001348589424,1.0036879707948547,False,False,False,False,0,Low,No flags
+SHP04822,Electronics,520942,142707,142228,2385.65,0.024277157985476472,1.0033678319318278,False,False,False,False,0,Low,No flags
+SHP04819,Machinery,100610,46464,45485,45.97,0.5466447478562276,1.0215235792019346,False,False,False,False,0,Low,No flags
+SHP04818,Electronics,100610,113653,114249,2370.35,0.047520090610664714,0.994783324142881,False,False,False,False,0,Low,No flags
+SHP04813,Minerals,260300,63316,63253,1364.02,0.013616507542677642,1.0009960001897142,False,False,False,False,0,Low,No flags
+SHP04806,Minerals,520942,110572,110841,2577.89,0.024865184373626316,0.9975731002066023,False,False,False,False,0,Low,No flags
+SHP04792,Minerals,847130,106890,107573,214.14,0.17801691455467894,0.9936508231619459,False,False,False,False,0,Low,No flags
+SHP04767,Minerals,843890,35807,36370,497.45,0.02566171252353133,0.9845202089634314,False,False,False,False,0,Low,No flags
+SHP04766,Agricultural,260300,124382,123617,1041.27,0.06005641397716347,1.0061884692234886,False,False,False,False,0,Low,No flags
+SHP04752,Textiles,260300,22025,22629,2030.79,0.0054390837608675425,0.9733085863272791,False,False,False,False,0,Low,No flags
+SHP04981,Textiles,520942,18046,18229,215.25,0.03661021763056058,0.9899610510724669,False,False,False,False,0,Low,No flags
+SHP04980,Electronics,843890,76330,76804,1842.89,0.01605996175768158,0.9938284464350815,False,False,False,False,0,Low,No flags
+SHP04971,Machinery,520942,126271,126951,2741.09,0.01691736358844421,0.9946436026498413,False,False,False,False,0,Low,No flags
+SHP04969,Minerals,520942,31877,32660,921.69,0.009830978169960931,0.9760257195345989,False,False,False,False,0,Low,No flags
+SHP04962,Electronics,847130,53974,54545,871.17,0.21662853371934265,0.9895315794298286,False,False,False,False,0,Low,No flags
+SHP04951,Agricultural,520942,57476,56692,2328.97,0.06494400167410802,1.013829111691244,False,False,False,False,0,Low,No flags
+SHP04948,Agricultural,100610,140531,139776,1812.86,0.021443692381931098,1.0054014995421245,False,False,False,False,0,Low,No flags
+SHP04943,Minerals,520942,75282,74850,2714.55,0.011241497117087287,1.0057715430861724,False,False,False,False,0,Low,No flags
+SHP04936,Electronics,100610,28199,28902,2616.83,0.003112656052888136,0.9756764237769012,False,False,False,False,0,Low,No flags
+SHP04931,Minerals,260300,57839,57228,885.62,0.3383888550663198,1.0106765918781015,False,False,False,False,0,Low,No flags
+SHP04914,Textiles,100610,121707,121658,95.29,0.2654806508129228,1.0004027684163803,False,False,False,False,0,Low,No flags
+SHP04913,Machinery,100610,13431,13294,1768.85,0.002186943820016885,1.0103054009327517,False,False,False,False,0,Low,No flags
+SHP04912,Minerals,100610,100203,100633,2164.49,0.018636894594420084,0.9957270477875051,False,False,False,False,0,Low,No flags
+SHP04908,Machinery,847130,16018,16120,1355.16,0.002497360340946157,0.9936724565756824,False,False,False,False,0,Low,No flags
+SHP04901,Electronics,100610,35971,36686,1524.88,0.014375013527402848,0.9805102763997166,False,False,False,False,0,Low,No flags
+SHP04898,Machinery,100610,147268,147964,255.22,0.23571231381563415,0.9952961531183261,False,False,False,False,0,Low,No flags
+SHP05087,Minerals,100610,106393,106392,824.63,0.02726523145004534,1.0000093992029475,False,False,False,False,0,Low,No flags
+SHP05084,Machinery,260300,149411,149201,1744.81,0.052182616308784714,1.001407497268785,False,False,False,False,0,Low,No flags
+SHP05082,Agricultural,260300,20306,20650,2286.8,0.012631091270053551,0.9833414043583535,False,False,False,False,0,Low,No flags
+SHP05077,Textiles,520942,117413,118044,755.52,0.04315658763901646,0.9946545355968961,False,False,False,False,0,Low,No flags
+SHP05062,Textiles,847130,14147,13487,2923.1,0.0010745392871980178,1.0489360124564395,False,False,False,False,0,Low,No flags
+SHP05053,Electronics,520942,55413,55206,879.69,0.020934366358347455,1.0037495924356048,False,False,False,False,0,Low,No flags
+SHP05051,Textiles,843890,63946,64342,898.0,0.016328675560712512,0.9938453887041124,False,False,False,False,0,Low,No flags
+SHP05047,Electronics,847130,33478,33834,2539.69,0.004307818228136896,0.9894780398415794,False,False,False,False,0,Low,No flags
+SHP05043,Textiles,260300,124998,125072,1903.74,0.04472695922888515,0.9994083407957016,False,False,False,False,0,Low,No flags
+SHP05040,Minerals,100610,49639,49907,1826.24,0.017052060150217246,0.9946300118219888,False,False,False,False,0,Low,No flags
+SHP05032,Machinery,847130,141429,140708,2423.76,0.015969095337656922,1.005124086761236,False,False,False,False,0,Low,No flags
+SHP05020,Minerals,100610,30322,30858,748.13,0.024911118072217613,0.982630112126515,False,False,False,False,0,Low,No flags
+SHP05019,Agricultural,260300,54902,54842,1133.63,0.010108591910394489,1.0010940520039386,False,False,False,False,0,Low,No flags
+SHP05016,Minerals,100610,55362,56131,1696.93,0.012615931516452333,0.9862999055780228,False,False,False,False,0,Low,No flags
+SHP04995,Electronics,100610,118262,118576,1608.48,0.2364118084121999,0.9973519093239779,False,False,False,False,0,Low,No flags
+SHP04987,Electronics,520942,20631,20544,1125.09,0.004371203740331684,1.004234813084112,False,False,False,False,0,Low,No flags
+SHP05206,Electronics,843890,11788,11891,260.3,0.009527920938624687,0.9913379867126398,False,False,False,False,0,Low,No flags
+SHP05202,Electronics,260300,71461,71514,2868.95,0.006863713411683617,0.9992588863718992,False,False,False,False,0,Low,No flags
+SHP05188,Textiles,260300,60039,60586,2842.69,0.005618645381348703,0.9909715115703298,False,False,False,False,0,Low,No flags
+SHP05183,Textiles,520942,110463,110982,2152.42,0.019922505542079142,0.995323565983673,False,False,False,False,0,Low,No flags
+SHP05181,Textiles,843890,35964,36665,952.37,0.021640478091859087,0.9808809491340515,False,False,False,False,0,Low,No flags
+SHP05170,Minerals,847130,121363,121835,328.17,0.21934606918823824,0.9961259079903148,False,False,False,False,0,Low,No flags
+SHP05169,Agricultural,520942,123002,123635,2166.78,0.023672720803058624,0.9948800905892344,False,False,False,False,0,Low,No flags
+SHP05166,Machinery,260300,52672,52617,2292.05,0.049740912287540844,1.001045289545204,False,False,False,False,0,Low,No flags
+SHP05153,Electronics,843890,20020,20335,968.97,0.005107815668525623,0.9845094664371773,False,False,False,False,0,Low,No flags
+SHP05150,Minerals,843890,5078,4891,336.92,0.006408089770397057,1.0382334900838275,False,False,False,False,0,Low,No flags
+SHP05144,Agricultural,843890,133298,133882,2101.33,0.024596767179379427,0.9956379498364231,False,False,False,False,0,Low,No flags
+SHP05142,Agricultural,520942,140266,141182,250.37,0.17127326579590973,0.9935119207831027,False,False,False,False,0,Low,No flags
+SHP05129,Textiles,260300,126648,127404,2774.35,0.10715871272474176,0.9940661203729867,False,False,False,False,0,Low,No flags
+SHP05109,Minerals,520942,148696,149130,2950.58,0.06206344268223861,0.9970897874337826,False,False,False,False,0,Low,No flags
+SHP05103,Machinery,520942,68269,68164,2964.85,0.007293672074146717,1.0015404025585353,False,False,False,False,0,Low,No flags
+SHP05091,Machinery,100610,61758,61914,130.99,0.12888767213353697,0.9974803760054268,False,False,False,False,0,Low,No flags
+SHP01211,Minerals,843890,30792,30880,1258.0,0.06441301983097648,0.9971502590673575,False,False,False,False,0,Low,No flags
+SHP01210,Electronics,520942,22106,22389,1968.08,0.002550469341738654,0.9873598642190361,False,False,False,False,0,Low,No flags
+SHP01209,Minerals,843890,137574,136980,2393.64,0.18844199423554386,1.004336399474376,False,False,False,False,0,Low,No flags
+SHP01200,Agricultural,843890,67085,67116,2345.16,0.010810931265947434,0.9995381131175874,False,False,False,False,0,Low,No flags
+SHP01192,Minerals,847130,141885,142386,930.0,0.04008526435339786,0.99648139564283,False,False,False,False,0,Low,No flags
+SHP01182,Agricultural,520942,143117,142856,198.28,0.30911880718072643,1.001827014616117,False,False,False,False,0,Low,No flags
+SHP01179,Minerals,847130,11869,11859,2231.92,0.008414308438984927,1.0008432414200186,False,False,False,False,0,Low,No flags
+SHP01176,Machinery,843890,68083,68222,1647.46,0.00905676995396461,0.9979625340799155,False,False,False,False,0,Low,No flags
+SHP01167,Electronics,100610,33810,34643,1533.63,0.03266034759941373,0.9759547383309759,False,False,False,False,0,Low,No flags
+SHP01164,Minerals,260300,23891,24147,1030.71,0.005375502726843065,0.9893982689360997,False,False,False,False,0,Low,No flags
+SHP01161,Machinery,100610,49324,49794,2373.59,0.008325455511995731,0.9905611117805359,False,False,False,False,0,Low,No flags
+SHP01159,Machinery,260300,115740,115344,1331.08,0.02055115783348167,1.0034332084893882,False,False,False,False,0,Low,No flags
+SHP01143,Machinery,847130,44023,43619,1966.55,0.004915657498585226,1.0092620188449988,False,False,False,False,0,Low,No flags
+SHP01142,Electronics,843890,10741,9806,730.34,0.028612546429790334,1.0953497858454009,False,False,False,False,0,Low,No flags
+SHP05227,Agricultural,520942,60753,60653,693.89,0.07438761537117777,1.001648723063987,False,False,False,False,0,Low,No flags
+SHP05209,Minerals,260300,16578,17108,702.58,0.007661003063661835,0.9690203413607669,False,False,False,False,0,Low,No flags
+SHP05352,Textiles,100610,53200,52898,1718.17,0.0711797147981356,1.0057091005331014,False,False,False,False,0,Low,No flags
+SHP05351,Minerals,100610,55412,55271,191.42,0.13857282593185424,1.0025510665629354,False,False,False,False,0,Low,No flags
+SHP05343,Electronics,843890,53867,53282,1487.7,0.009310424507273174,1.0109793175931834,False,False,False,False,0,Low,No flags
+SHP05330,Machinery,260300,37034,37848,1121.99,0.007021362328992672,0.9784929190445995,False,False,False,False,0,Low,No flags
+SHP05328,Machinery,260300,52764,51973,1407.27,0.019296897124113904,1.0152194408635253,False,False,False,False,0,Low,No flags
+SHP05323,Machinery,260300,23616,24216,2859.84,0.0025153227634562864,0.9752229930624381,False,False,False,False,0,Low,No flags
+SHP05313,Agricultural,100610,107299,107242,2507.83,0.3241332993549053,1.0005315081777661,False,False,False,False,0,Low,No flags
+SHP05291,Agricultural,847130,71029,71765,1709.75,0.017633064733349205,0.9897443043266216,False,False,False,False,0,Low,No flags
+SHP05279,Minerals,260300,143667,144423,565.34,0.05406913858653312,0.9947653767059264,False,False,False,False,0,Low,No flags
+SHP05278,Agricultural,847130,35208,35420,913.8,0.009544022454150716,0.9940146809712027,False,False,False,False,0,Low,No flags
+SHP05268,Machinery,260300,10283,9434,1617.64,0.001464023808173569,1.08999364002544,False,False,False,False,0,Low,No flags
+SHP05266,Agricultural,520942,43862,44838,1809.37,0.0052790912131253885,0.9782327490075382,False,False,False,False,0,Low,No flags
+SHP05256,Electronics,520942,131230,131339,2005.57,0.03715659837381286,0.9991700865698688,False,False,False,False,0,Low,No flags
+SHP05251,Agricultural,843890,67959,68592,1023.04,0.030626319799293165,0.9907715185444367,False,False,False,False,0,Low,No flags
+SHP05241,Minerals,100610,139806,138865,785.61,0.12693190373832186,1.006776365534872,False,False,False,False,0,Low,No flags
+SHP01217,Textiles,843890,30230,29992,1257.3,0.016389628807708452,1.0079354494531876,False,False,False,False,0,Low,No flags
+SHP05455,Agricultural,520942,66238,66998,1323.64,0.010307375401869842,0.9886563778023224,False,False,False,False,0,Low,No flags
+SHP05452,Minerals,847130,106800,106388,2510.76,0.010741646740308499,1.0038726172124677,False,False,False,False,0,Low,No flags
+SHP05448,Minerals,847130,120433,119998,1773.58,0.021848101861408283,1.0036250604176735,False,False,False,False,0,Low,No flags
+SHP05445,Agricultural,843890,134886,135492,1880.38,0.030460031015549574,0.9955274112124701,False,False,False,False,0,Low,No flags
+SHP05443,Minerals,847130,54899,54284,1544.02,0.016176472512183817,1.0113293051359518,False,False,False,False,0,Low,No flags
+SHP05433,Minerals,100610,51804,51584,2114.36,0.009145588295951915,1.004264888337469,False,False,False,False,0,Low,No flags
+SHP05422,Agricultural,520942,100193,99566,1503.71,0.02610914334366605,1.0062973304139968,False,False,False,False,0,Low,No flags
+SHP05404,Minerals,260300,122061,122384,403.23,0.07870726256771422,0.9973607661132174,False,False,False,False,0,Low,No flags
+SHP05391,Textiles,260300,123066,123597,1160.62,0.3841837158999725,0.9957037792179422,False,False,False,False,0,Low,No flags
+SHP05389,Minerals,260300,13704,14394,961.46,0.006006457257127099,0.9520633597332222,False,False,False,False,0,Low,No flags
+SHP05388,Electronics,100610,72067,71970,2803.56,0.006856636846751804,1.001347783798805,False,False,False,False,0,Low,No flags
+SHP05383,Agricultural,847130,63141,62933,210.84,0.08184573228578677,1.0033051022516009,False,False,False,False,0,Low,No flags
+SHP05381,Textiles,847130,19006,19659,974.28,0.0068185036869356395,0.9667836614273361,False,False,False,False,0,Low,No flags
+SHP05376,Machinery,520942,131889,131231,1555.87,0.04229972571712098,1.0050140591780905,False,False,False,False,0,Low,No flags
+SHP05366,Machinery,260300,102218,101414,196.14,0.12494561483527308,1.007927899501055,False,False,False,False,0,Low,No flags
+SHP05363,Electronics,100610,136141,135635,1221.45,0.025331480096308784,1.0037306005087183,False,False,False,False,0,Low,No flags
+SHP05585,Electronics,100610,143026,143601,2384.02,0.04807181427448875,0.9959958496110751,False,False,False,False,0,Low,No flags
+SHP05578,Electronics,100610,32865,32225,2657.56,0.006684652412312371,1.0198603568657874,False,False,False,False,0,Low,No flags
+SHP05564,Electronics,843890,52640,53359,961.66,0.35544598071894623,0.9865252347307858,False,False,False,False,0,Low,No flags
+SHP05557,Agricultural,520942,75649,75310,1459.91,0.034068098485135784,1.004501394237153,False,False,False,False,0,Low,No flags
+SHP05542,Agricultural,847130,103815,103845,1198.59,0.2593241669740388,0.9997111079011989,False,False,False,False,0,Low,No flags
+SHP05529,Agricultural,260300,110346,109543,1800.99,0.2015448520857388,1.0073304547072839,False,False,False,False,0,Low,No flags
+SHP05526,Minerals,260300,115839,115785,1166.71,0.02703891166395332,1.000466381655655,False,False,False,False,0,Low,No flags
+SHP05524,Agricultural,520942,35980,35780,867.31,0.01170888802847979,1.0055897149245387,False,False,False,False,0,Low,No flags
+SHP05522,Electronics,260300,11103,11604,863.96,0.005841495187066741,0.9568252326783868,False,False,False,False,0,Low,No flags
+SHP05512,Agricultural,520942,19066,19149,340.47,0.017358667118032068,0.9956655700036555,False,False,False,False,0,Low,No flags
+SHP05508,Minerals,847130,31607,32275,2772.47,0.014144297394926246,0.9793028659953524,False,False,False,False,0,Low,No flags
+SHP05483,Electronics,260300,31640,31610,425.47,0.03257328956693904,1.0009490667510281,False,False,False,False,0,Low,No flags
+SHP05482,Minerals,260300,114946,114962,1159.32,0.04103870092378885,0.9998608235764861,False,False,False,False,0,Low,No flags
+SHP05479,Textiles,847130,51381,50965,569.78,0.01887335922697048,1.0081624644363778,False,False,False,False,0,Low,No flags
+SHP05475,Machinery,100610,112632,113292,985.09,0.040458868049583194,0.9941743459379303,False,False,False,False,0,Low,No flags
+SHP05470,Agricultural,520942,103039,103216,1132.02,0.020390287505210814,0.998285149589211,False,False,False,False,0,Low,No flags
+SHP05737,Electronics,100610,53475,54107,1201.72,0.04449871850347835,0.9883194411074353,False,False,False,False,0,Low,No flags
+SHP05723,Textiles,843890,46939,46729,761.65,0.014729456113130658,1.0044939973036016,False,False,False,False,0,Low,No flags
+SHP05722,Machinery,847130,120471,119638,1316.5,0.13907073766792072,1.0069626707233488,False,False,False,False,0,Low,No flags
+SHP05708,Machinery,847130,32749,31803,2169.2,0.013901722728614126,1.02974562148225,False,False,False,False,0,Low,No flags
+SHP05698,Minerals,520942,145532,144554,814.09,0.05017302145695122,1.0067656377547491,False,False,False,False,0,Low,No flags
+SHP05690,Electronics,520942,31496,31167,1308.92,0.005900585078156224,1.0105560368338307,False,False,False,False,0,Low,No flags
+SHP05679,Machinery,847130,29459,30456,791.2,0.0445907981811907,0.9672642500656685,False,False,False,False,0,Low,No flags
+SHP05674,Agricultural,100610,115930,115485,245.87,0.11466666687767522,1.0038533142832402,False,False,False,False,0,Low,No flags
+SHP05668,Agricultural,260300,133324,132794,2447.29,0.6409202207579909,1.0039911441782008,False,False,False,False,0,Low,No flags
+SHP05666,Textiles,847130,146486,146987,921.0,0.046222328243973716,0.9965915353058433,False,False,False,False,0,Low,No flags
+SHP05650,Textiles,260300,101199,101496,1908.12,0.03329314035175195,0.9970737763064554,False,False,False,False,0,Low,No flags
+SHP05644,Machinery,843890,75658,75239,770.1,0.08732834119666998,1.0055689203737423,False,False,False,False,0,Low,No flags
+SHP05635,Machinery,260300,52068,51933,2004.04,0.006447026633990902,1.002599503206054,False,False,False,False,0,Low,No flags
+SHP05633,Machinery,843890,6194,6627,749.62,0.019533931865115834,0.9346612343443489,False,False,False,False,0,Low,No flags
+SHP05605,Minerals,520942,77542,76783,2900.62,0.008721991966998383,1.0098850005860673,False,False,False,False,0,Low,No flags
+SHP05604,Textiles,847130,103408,104051,1447.42,0.09266275136791989,0.9938203381034301,False,False,False,False,0,Low,No flags
+SHP01139,Textiles,260300,22669,22657,1230.63,0.014235429934788806,1.0005296376395816,False,False,False,False,0,Low,No flags
+SHP01137,Minerals,520942,70018,70667,2050.79,0.018967758224337397,0.9908160810562214,False,False,False,False,0,Low,No flags
+SHP01135,Minerals,520942,114071,114949,1247.47,0.01936097361037567,0.9923618300289694,False,False,False,False,0,Low,No flags
+SHP01134,Minerals,847130,47459,46974,513.43,0.021847126158298986,1.0103248605611614,False,False,False,False,0,Low,No flags
+SHP01131,Machinery,847130,103315,103530,2664.14,0.012841016200598413,0.9979233072539361,False,False,False,False,0,Low,No flags
+SHP01130,Textiles,520942,146554,146086,817.79,0.04483547059712728,1.003203592404474,False,False,False,False,0,Low,No flags
+SHP01127,Machinery,847130,19925,19664,2032.84,0.0020475367476275614,1.013272986167616,False,False,False,False,0,Low,No flags
+SHP01116,Minerals,260300,13630,12658,2667.08,0.004780596706294435,1.0767893822088797,False,False,False,False,0,Low,No flags
+SHP01100,Textiles,520942,140905,141173,2789.1,0.024464833397184457,0.9981016199981583,False,False,False,False,0,Low,No flags
+SHP01084,Electronics,847130,24464,24803,1747.69,0.003204648765360333,0.9863322985122768,False,False,False,False,0,Low,No flags
+SHP01081,Electronics,847130,134851,135606,773.7,0.03812197153784108,0.9944323997463239,False,False,False,False,0,Low,No flags
+SHP01063,Minerals,260300,46340,47203,2462.82,0.01704332337773748,0.9817172637332373,False,False,False,False,0,Low,No flags
+SHP01058,Machinery,847130,42271,41981,1155.56,0.014189500536294709,1.0069078869012171,False,False,False,False,0,Low,No flags
+SHP05756,Minerals,847130,55564,56337,576.72,0.02961722924050985,0.9862789995917426,False,False,False,False,0,Low,No flags
+SHP05751,Textiles,260300,102333,103294,373.56,0.08961070635545368,0.9906964586520031,False,False,False,False,0,Low,No flags
+SHP05738,Electronics,847130,148817,148202,843.36,0.11450828434354421,1.0041497415689398,False,False,False,False,0,Low,No flags
+SHP05882,Machinery,100610,21244,20919,1083.22,0.008635798265118372,1.0155361154930924,False,False,False,False,0,Low,No flags
+SHP05873,Machinery,260300,63259,64130,2938.15,0.007941798078500165,0.9864182130048339,False,False,False,False,0,Low,No flags
+SHP05869,Minerals,520942,16734,17334,839.63,0.004278704884765764,0.965385946694358,False,False,False,False,0,Low,No flags
+SHP05865,Electronics,260300,33421,32661,1374.23,0.008590533700702778,1.0232693426410704,False,False,False,False,0,Low,No flags
+SHP05860,Textiles,520942,27757,28064,231.57,0.06722625005718845,0.9890607183580388,False,False,False,False,0,Low,No flags
+SHP05843,Electronics,520942,53566,52976,1473.59,0.03917099244608113,1.0111371186952582,False,False,False,False,0,Low,No flags
+SHP05832,Machinery,520942,122880,123827,2937.55,0.020217872087226033,0.9923522333578298,False,False,False,False,0,Low,No flags
+SHP05829,Agricultural,843890,48568,49238,2294.53,0.01375364656198609,0.9863926235834112,False,False,False,False,0,Low,No flags
+SHP05826,Machinery,843890,26305,26544,782.26,0.012824914991851243,0.9909960819770947,False,False,False,False,0,Low,No flags
+SHP05822,Textiles,260300,52531,52461,235.69,0.09981269657553965,1.001334324545853,False,False,False,False,0,Low,No flags
+SHP05821,Agricultural,843890,127829,127868,2542.37,0.019234683875309414,0.9996949979666531,False,False,False,False,0,Low,No flags
+SHP05815,Electronics,843890,55636,55524,1123.0,0.010024746543430057,1.0020171457387796,False,False,False,False,0,Low,No flags
+SHP05795,Machinery,100610,115022,114024,668.55,0.10452428148075854,1.0087525433242124,False,False,False,False,0,Low,No flags
+SHP05793,Agricultural,520942,55224,55865,2994.18,0.1346261382117805,0.9885259106775262,False,False,False,False,0,Low,No flags
+SHP05789,Minerals,843890,100457,100395,2353.77,0.045451747875272064,1.00061756063549,False,False,False,False,0,Low,No flags
+SHP05772,Textiles,520942,120455,120168,849.71,0.05661347041800354,1.0023883230144464,False,False,False,False,0,Low,No flags
+SHP05975,Textiles,100610,22534,21889,1871.2,0.009743154973151197,1.0294668554981954,False,False,False,False,0,Low,No flags
+SHP05971,Electronics,847130,75058,74125,2739.34,0.01142620127786514,1.0125868465430017,False,False,False,False,0,Low,No flags
+SHP05959,Agricultural,260300,101299,100807,2893.07,0.010055819042564721,1.0048806134494628,False,False,False,False,0,Low,No flags
+SHP05958,Machinery,100610,142227,143174,2277.02,0.018474386855835183,0.9933856705826477,False,False,False,False,0,Low,No flags
+SHP05954,Electronics,843890,47294,47264,2552.52,0.0056765797460287615,1.000634732566012,False,False,False,False,0,Low,No flags
+SHP05951,Machinery,260300,20773,21726,2001.06,0.020720555031980756,0.9561355058455308,False,False,False,False,0,Low,No flags
+SHP05936,Agricultural,260300,136101,136555,642.61,0.06169358861865095,0.9966753322836952,False,False,False,False,0,Low,No flags
+SHP05930,Electronics,843890,55472,56360,2614.33,0.012474096635026757,0.9842441447835344,False,False,False,False,0,Low,No flags
+SHP05928,Textiles,100610,65777,66042,615.73,0.2225576416069814,0.9959874019563308,False,False,False,False,0,Low,No flags
+SHP05920,Machinery,100610,109182,110113,1239.35,0.0276597109729685,0.9915450491767548,False,False,False,False,0,Low,No flags
+SHP05919,Electronics,843890,108553,108396,550.16,0.1334991144414035,1.0014483929296285,False,False,False,False,0,Low,No flags
+SHP05915,Textiles,100610,125004,125095,1362.69,0.03851102556021906,0.9992725528598265,False,False,False,False,0,Low,No flags
+SHP05906,Electronics,520942,59790,59082,1900.92,0.009856844589915797,1.0119833451812734,False,False,False,False,0,Low,No flags
+SHP05903,Electronics,847130,76996,77908,2510.39,0.013821961067253797,0.9882938850952405,False,False,False,False,0,Low,No flags
+SHP05891,Minerals,260300,59914,60572,925.1,0.1506160239119341,0.9891368949349535,False,False,False,False,0,Low,No flags
+SHP05889,Machinery,520942,79295,78719,1299.58,0.01543923751634988,1.007317166122537,False,False,False,False,0,Low,No flags
+SHP06083,Machinery,100610,108516,109009,1315.77,0.02525984092068391,0.9954774376427634,False,False,False,False,0,Low,No flags
+SHP06082,Textiles,520942,116145,116587,1320.7,0.03201383343804315,0.9962088397505725,False,False,False,False,0,Low,No flags
+SHP06081,Electronics,100610,104448,104082,2856.4,0.013914119954293138,1.0035164581772065,False,False,False,False,0,Low,No flags
+SHP06076,Textiles,260300,120606,121131,716.92,0.03685976670187587,0.9956658493696907,False,False,False,False,0,Low,No flags
+SHP06059,Electronics,843890,20169,19788,208.48,0.03554118033160349,1.0192540933899332,False,False,False,False,0,Low,No flags
+SHP06058,Machinery,260300,107602,107403,2678.6,0.014806850292233081,1.001852834650801,False,False,False,False,0,Low,No flags
+SHP06054,Electronics,520942,148535,148937,623.17,0.09914887696332933,0.997300872180855,False,False,False,False,0,Low,No flags
+SHP06038,Electronics,100610,24499,24962,107.18,0.06664084341917931,0.9814518067462543,False,False,False,False,0,Low,No flags
+SHP06033,Minerals,100610,141337,141445,2279.7,0.03683783120705936,0.9992364523312949,False,False,False,False,0,Low,No flags
+SHP06029,Minerals,520942,61515,60926,671.9,0.018354812078829944,1.00966746544989,False,False,False,False,0,Low,No flags
+SHP06019,Electronics,100610,144563,144971,2851.65,0.010956237345115954,0.9971856440253568,False,False,False,False,0,Low,No flags
+SHP06017,Agricultural,100610,114594,114196,620.57,0.0444319694103451,1.0034852359101896,False,False,False,False,0,Low,No flags
+SHP06010,Machinery,260300,133773,133278,1676.37,0.01885169123675216,1.0037140413271508,False,False,False,False,0,Low,No flags
+SHP05998,Agricultural,260300,103858,104818,1061.64,0.08012112115197906,0.990841267721193,False,False,False,False,0,Low,No flags
+SHP05993,Minerals,843890,133066,133740,971.16,0.041939879772050485,0.99496037086885,False,False,False,False,0,Low,No flags
+SHP05982,Minerals,260300,61731,61919,1165.14,0.01856398596466309,0.9969637752547683,False,False,False,False,0,Low,No flags
+SHP06256,Electronics,100610,66904,67693,2083.53,0.011638596858319568,0.9883444373864358,False,False,False,False,0,Low,No flags
+SHP06246,Textiles,260300,77033,77702,1021.31,0.02020511084518879,0.9913901830068724,False,False,False,False,0,Low,No flags
+SHP06238,Machinery,260300,118308,117640,1468.12,0.018137450675065836,1.005678340700442,False,False,False,False,0,Low,No flags
+SHP06219,Electronics,520942,41936,41202,2788.99,0.00819861919815776,1.017814669190816,False,False,False,False,0,Low,No flags
+SHP06204,Electronics,100610,122233,121876,1036.8,0.09923778032381428,1.002929206734714,False,False,False,False,0,Low,No flags
+SHP06195,Minerals,847130,133713,134207,1600.52,0.05057110978883437,0.9963191189729299,False,False,False,False,0,Low,No flags
+SHP06192,Machinery,520942,107581,107247,119.22,0.6060267043596226,1.00311430622768,False,False,False,False,0,Low,No flags
+SHP06189,Textiles,843890,125690,125997,1209.39,0.03731720887882362,0.997563434050017,False,False,False,False,0,Low,No flags
+SHP06187,Agricultural,260300,68960,68020,2270.75,0.016843494661209386,1.0138194648632755,False,False,False,False,0,Low,No flags
+SHP06183,Minerals,100610,47884,48752,2795.08,0.0037868105921675917,0.9821956022317033,False,False,False,False,0,Low,No flags
+SHP06181,Machinery,100610,77672,77731,2404.11,0.017703016916863205,0.9992409720703451,False,False,False,False,0,Low,No flags
+SHP06133,Minerals,260300,145378,145915,1754.17,0.054631286746203996,0.9963197752115958,False,False,False,False,0,Low,No flags
+SHP06131,Minerals,100610,21696,22586,1799.61,0.003455415722226584,0.9605950588860356,False,False,False,False,0,Low,No flags
+SHP06126,Electronics,847130,142061,141629,1495.44,0.019351420155392852,1.0030502227651117,False,False,False,False,0,Low,No flags
+SHP06106,Minerals,843890,104087,104522,2783.94,0.03402036180444127,0.9958381967432693,False,False,False,False,0,Low,No flags
+SHP06087,Textiles,843890,41544,42451,2491.78,0.003500402879149111,0.9786341900073026,False,False,False,False,0,Low,No flags
+SHP06278,Minerals,520942,22353,21546,765.15,0.025492041563215374,1.0374547479810639,False,False,False,False,0,Low,No flags
+SHP01047,Machinery,100610,48284,47496,1378.66,0.02268291001798021,1.0165908708101734,False,False,False,False,0,Low,No flags
+SHP01040,Agricultural,100610,107192,106798,1409.77,0.04493800113698274,1.0036892076630648,False,False,False,False,0,Low,No flags
+SHP01036,Machinery,520942,128791,127862,1814.5,0.13972201187720093,1.0072656457743505,False,False,False,False,0,Low,No flags
+SHP01022,Minerals,847130,116573,116454,1339.69,0.03791499191005574,1.0010218627097394,False,False,False,False,0,Low,No flags
+SHP01011,Machinery,843890,16009,15802,343.59,0.013199241767087345,1.013099607644602,False,False,False,False,0,Low,No flags
+SHP01007,Machinery,843890,17755,17988,2099.44,0.028863539622267547,0.9870469201690015,False,False,False,False,0,Low,No flags
+SHP01005,Minerals,520942,131839,131203,922.06,0.11568212221024445,1.0048474501345244,False,False,False,False,0,Low,No flags
+SHP00974,Electronics,100610,142863,143822,2437.48,0.05878730436184409,0.9933320354326877,False,False,False,False,0,Low,No flags
+SHP00967,Machinery,260300,111305,110972,1285.39,0.01776618713215489,1.0030007569476984,False,False,False,False,0,Low,No flags
+SHP00966,Agricultural,260300,36385,35543,1599.42,0.007053913632839191,1.0236896153954365,False,False,False,False,0,Low,No flags
+SHP00963,Machinery,847130,130074,130373,1776.1,0.021221599893012623,0.9977065803502259,False,False,False,False,0,Low,No flags
+SHP00954,Machinery,100610,50771,50512,1362.98,0.008113699919748986,1.0051274944567627,False,False,False,False,0,Low,No flags
+SHP00951,Minerals,260300,76492,76730,9.28,1.7382269957387397,0.9968982145184413,False,False,False,False,0,Low,No flags
+SHP00949,Agricultural,843890,48209,47245,2831.6,0.011856097972700456,1.020404275584718,False,False,False,False,0,Low,No flags
+SHP00936,Agricultural,100610,148113,148907,2093.86,0.01716080082263396,0.9946678127959062,False,False,False,False,0,Low,No flags
+SHP06477,Agricultural,520942,110249,110924,1852.8,0.021677229127539163,0.9939147524431142,False,False,False,False,0,Low,No flags
+SHP06457,Minerals,843890,30829,31319,2861.34,0.0032452778675354814,0.9843545451642772,False,False,False,False,0,Low,No flags
+SHP06445,Textiles,520942,18582,18758,2982.07,0.002184101667259784,0.9906173366030494,False,False,False,False,0,Low,No flags
+SHP06442,Machinery,260300,128432,128348,2349.49,0.0290919521535514,1.0006544706578988,False,False,False,False,0,Low,No flags
+SHP06394,Agricultural,520942,78967,78466,2453.38,0.00983410437409062,1.00638493105294,False,False,False,False,0,Low,No flags
+SHP06388,Minerals,100610,117655,117350,2939.45,0.009836862958143552,1.0025990626331487,False,False,False,False,0,Low,No flags
+SHP06381,Machinery,520942,68427,67963,747.68,0.08327488542294836,1.0068272442358341,False,False,False,False,0,Low,No flags
+SHP06379,Minerals,260300,101590,101414,2318.4,0.030220009043097497,1.0017354605872957,False,False,False,False,0,Low,No flags
+SHP06374,Agricultural,520942,21679,21809,310.35,0.01792951522904689,0.9940391581457196,False,False,False,False,0,Low,No flags
+SHP06369,Minerals,260300,131025,131332,2703.87,0.012172399108571805,0.9976624128163738,False,False,False,False,0,Low,No flags
+SHP06344,Agricultural,100610,133350,132480,1006.01,0.07801845458529377,1.0065670289855073,False,False,False,False,0,Low,No flags
+SHP06333,Electronics,843890,35214,36075,1331.01,0.0064591310123515225,0.9761330561330561,False,False,False,False,0,Low,No flags
+SHP06321,Electronics,847130,145030,144358,1435.26,0.04249280645980197,1.0046550935867773,False,False,False,False,0,Low,No flags
+SHP06316,Agricultural,100610,48864,47933,1456.78,0.008683010711850611,1.0194229445267353,False,False,False,False,0,Low,No flags
+SHP06308,Textiles,260300,102114,102955,487.4,0.10464914650388595,0.9918313826429023,False,False,False,False,0,Low,No flags
+SHP06296,Electronics,260300,16240,17049,398.67,0.01068330588927565,0.9525485365710599,False,False,False,False,0,Low,No flags
+SHP06611,Machinery,520942,56237,55629,1602.25,0.04600100571219167,1.0109295511334015,False,False,False,False,0,Low,No flags
+SHP06607,Minerals,847130,19069,19606,1108.51,0.004793081847290492,0.9726104253799858,False,False,False,False,0,Low,No flags
+SHP06596,Agricultural,260300,57003,56285,164.83,0.10029844430871826,1.0127565070622724,False,False,False,False,0,Low,No flags
+SHP06589,Textiles,260300,78143,77183,2384.97,0.014122746863150019,1.0124379720923,False,False,False,False,0,Low,No flags
+SHP06559,Agricultural,100610,16690,16007,1814.9,0.006435338669433386,1.0426688323858313,False,False,False,False,0,Low,No flags
+SHP06554,Textiles,843890,114783,114010,2301.32,0.017712012463597965,1.0067801070081572,False,False,False,False,0,Low,No flags
+SHP06545,Minerals,843890,131688,132131,2681.88,0.015692830980273836,0.9966472667277172,False,False,False,False,0,Low,No flags
+SHP06544,Machinery,847130,113387,113787,2822.99,0.011037529302171658,0.9964846599347904,False,False,False,False,0,Low,No flags
+SHP06542,Minerals,520942,47782,46789,322.62,0.2692838746400212,1.0212229370151105,False,False,False,False,0,Low,No flags
+SHP06537,Minerals,100610,15568,16278,2896.48,0.0012889208050231085,0.9563828480157267,False,False,False,False,0,Low,No flags
+SHP06516,Electronics,847130,146735,146642,1186.48,0.11131642123824008,1.0006341975695912,False,False,False,False,0,Low,No flags
+SHP06508,Agricultural,843890,28618,28696,99.32,0.07256090344080367,0.9972818511290772,False,False,False,False,0,Low,No flags
+SHP06500,Agricultural,100610,132445,132573,2220.49,0.044982462019189214,0.9990344942031937,False,False,False,False,0,Low,No flags
+SHP06497,Electronics,843890,76331,76420,550.66,0.028699233045322087,0.9988353834074849,False,False,False,False,0,Low,No flags
+SHP06485,Minerals,520942,16810,16114,2909.88,0.0014165940470501224,1.0431922551818296,False,False,False,False,0,Low,No flags
+SHP06478,Agricultural,843890,106135,106522,2531.17,0.008753904337422477,0.9963669476727812,False,False,False,False,0,Low,No flags
+SHP06645,Machinery,843890,75577,75517,646.13,0.038705731788458216,1.0007945230875168,False,False,False,False,0,Low,No flags
+SHP00930,Agricultural,843890,21043,20850,1791.2,0.005570407858788479,1.0092565947242207,False,False,False,False,0,Low,No flags
+SHP00928,Minerals,847130,71133,70690,2158.46,0.028607153170933597,1.006266798698543,False,False,False,False,0,Low,No flags
+SHP00924,Electronics,100610,78704,78104,2266.02,0.013551409227926333,1.0076820649390557,False,False,False,False,0,Low,No flags
+SHP00922,Agricultural,520942,129476,130468,1679.61,0.017885601578236227,0.9923966029984364,False,False,False,False,0,Low,No flags
+SHP00916,Machinery,100610,120577,120612,863.87,0.060110988044535324,0.9997098132855768,False,False,False,False,0,Low,No flags
+SHP00911,Machinery,847130,110584,111001,2108.46,0.03517622942948122,0.9962432770875939,False,False,False,False,0,Low,No flags
+SHP00907,Agricultural,520942,38161,37742,1660.35,0.01107115041150469,1.0111016904244607,False,False,False,False,0,Low,No flags
+SHP00896,Textiles,843890,32197,31429,937.03,0.007292167408178574,1.024436030417767,False,False,False,False,0,Low,No flags
+SHP00895,Electronics,260300,39268,39861,27.04,0.3854084222163595,0.9851233034795915,False,False,False,False,0,Low,No flags
+SHP00867,Electronics,260300,79099,79263,189.72,0.10911409108082143,0.9979309387734504,False,False,False,False,0,Low,No flags
+SHP00865,Textiles,100610,25365,25871,2019.57,0.0205558171394379,0.980441420895984,False,False,False,False,0,Low,No flags
+SHP00864,Minerals,520942,26322,25444,358.43,0.024643266205508097,1.0345071529633705,False,False,False,False,0,Low,No flags
+SHP06643,Agricultural,843890,138931,139605,2132.64,0.08911775430982238,0.9951720926900899,False,False,False,False,0,Low,No flags
+SHP06623,Electronics,100610,109770,110109,1946.0,0.016345411893360667,0.9969212325967904,False,False,False,False,0,Low,No flags
+SHP06619,Electronics,843890,53406,53447,516.48,0.02600045521974401,0.999232884914027,False,False,False,False,0,Low,No flags
+SHP06782,Electronics,843890,58325,58087,410.34,0.09259819337868541,1.0040973023223785,False,False,False,False,0,Low,No flags
+SHP06777,Textiles,847130,26558,26275,2914.51,0.0030374459743375956,1.0107706945765937,False,False,False,False,0,Low,No flags
+SHP06771,Machinery,260300,67027,66301,854.52,0.07060142891132254,1.0109500610850515,False,False,False,False,0,Low,No flags
+SHP06766,Textiles,847130,47516,48039,2885.85,0.017800179721277492,0.9891130123441371,False,False,False,False,0,Low,No flags
+SHP06762,Agricultural,100610,17409,17180,549.2,0.03716158812263644,1.0133294528521537,False,False,False,False,0,Low,No flags
+SHP06760,Minerals,100610,113453,113709,2217.12,0.014167037484842607,0.9977486390699065,False,False,False,False,0,Low,No flags
+SHP06759,Machinery,847130,118455,119316,1261.45,0.028620494001251492,0.9927838680478729,False,False,False,False,0,Low,No flags
+SHP06730,Machinery,843890,20606,19606,779.53,0.06478891378238723,1.0510047944506784,False,False,False,False,0,Low,No flags
+SHP06702,Textiles,520942,107384,106897,2012.71,0.013952129198026042,1.0045557873466981,False,False,False,False,0,Low,No flags
+SHP06699,Textiles,847130,101925,102394,1942.72,0.0693982810551333,0.995419653495322,False,False,False,False,0,Low,No flags
+SHP06685,Machinery,843890,53845,53794,1133.35,0.02655650947296019,1.0009480611220583,False,False,False,False,0,Low,No flags
+SHP06671,Electronics,847130,110419,110591,1646.5,0.01666572082838529,0.9984447197330705,False,False,False,False,0,Low,No flags
+SHP06667,Machinery,520942,24192,24001,2206.43,0.021207578192140045,1.007958001749927,False,False,False,False,0,Low,No flags
+SHP06658,Agricultural,260300,148936,148149,1602.72,0.04521996304579052,1.0053122194547381,False,False,False,False,0,Low,No flags
+SHP06652,Machinery,520942,6791,7081,855.37,0.002834435686456018,0.959045332580144,False,False,False,False,0,Low,No flags
+SHP06649,Electronics,520942,38974,38138,2585.27,0.007575581901741628,1.0219203943573338,False,False,False,False,0,Low,No flags
+SHP06939,Electronics,843890,40743,41511,912.46,0.012827296855434912,0.9814988798149888,False,False,False,False,0,Low,No flags
+SHP06926,Agricultural,260300,135587,135670,2109.17,0.017554486342254358,0.9993882214196211,False,False,False,False,0,Low,No flags
+SHP06922,Agricultural,260300,59985,59391,1269.76,0.03617244329058193,1.0100015153811184,False,False,False,False,0,Low,No flags
+SHP06916,Agricultural,520942,108807,108310,1980.1,0.012838844634958962,1.0045886806389068,False,False,False,False,0,Low,No flags
+SHP06902,Agricultural,847130,70387,70767,390.51,0.04275232062854409,0.9946302655192392,False,False,False,False,0,Low,No flags
+SHP06901,Agricultural,100610,16230,16562,2032.82,0.003123623959925602,0.9799541118222437,False,False,False,False,0,Low,No flags
+SHP06891,Textiles,100610,56968,57286,1416.2,0.014553529951434415,0.9944489054917431,False,False,False,False,0,Low,No flags
+SHP06883,Machinery,520942,28448,29363,2548.66,0.002745190340254184,0.9688383339577019,False,False,False,False,0,Low,No flags
+SHP06880,Electronics,260300,57012,57044,1348.24,0.009305950668706955,0.9994390295210714,False,False,False,False,0,Low,No flags
+SHP06877,Minerals,100610,138424,137985,2812.96,0.028151815649747745,1.0031815052360764,False,False,False,False,0,Low,No flags
+SHP06874,Agricultural,847130,47694,47959,104.53,0.31751630271858106,0.9944744469234138,False,False,False,False,0,Low,No flags
+SHP06863,Electronics,847130,61804,62218,2010.84,0.0320160563081432,0.9933459770484425,False,False,False,False,0,Low,No flags
+SHP06861,Agricultural,520942,126742,126185,224.23,0.11842282164801919,1.0044141538217697,False,False,False,False,0,Low,No flags
+SHP06831,Minerals,520942,30065,29359,851.53,0.009156388892963134,1.024047140570183,False,False,False,False,0,Low,No flags
+SHP06810,Minerals,100610,50711,49750,1286.4,0.028607303648665233,1.019316582914573,False,False,False,False,0,Low,No flags
+SHP06795,Agricultural,100610,34617,33981,2732.14,0.005544983702309868,1.0187163414849474,False,False,False,False,0,Low,No flags
+SHP07029,Machinery,100610,102446,103414,539.36,0.04068978766163433,0.9906395652426171,False,False,False,False,0,Low,No flags
+SHP07027,Agricultural,520942,54745,55168,1951.07,0.01682191997482191,0.9923325116009281,False,False,False,False,0,Low,No flags
+SHP07016,Machinery,260300,19282,20043,827.79,0.0370913174308109,0.9620316319912189,False,False,False,False,0,Low,No flags
+SHP07002,Textiles,847130,131402,131783,2081.08,0.07625755263269564,0.9971088835434009,False,False,False,False,0,Low,No flags
+SHP06999,Electronics,843890,66397,67114,221.4,0.07660181752945669,0.989316685043359,False,False,False,False,0,Low,No flags
+SHP06998,Minerals,847130,77927,78664,1821.08,0.0181090309461023,0.9906310383402828,False,False,False,False,0,Low,No flags
+SHP06997,Agricultural,847130,22326,23114,2888.02,0.007800762747302715,0.9659081076403911,False,False,False,False,0,Low,No flags
+SHP06996,Minerals,520942,75724,74821,1796.96,0.022803062102768272,1.012068804212721,False,False,False,False,0,Low,No flags
+SHP06993,Minerals,843890,71607,72523,2315.9,0.06780642287527186,0.987369524150959,False,False,False,False,0,Low,No flags
+SHP06988,Textiles,843890,23343,23821,1550.43,0.003351697066615059,0.9799336719701104,False,False,False,False,0,Low,No flags
+SHP06978,Machinery,100610,54252,53280,471.88,0.09241953987429907,1.0182432432432433,False,False,False,False,0,Low,No flags
+SHP06973,Machinery,260300,108476,109255,542.71,0.08384160574219932,0.9928698915381448,False,False,False,False,0,Low,No flags
+SHP06965,Textiles,100610,51294,52043,2897.62,0.004169127213578238,0.9856080548776973,False,False,False,False,0,Low,No flags
+SHP06961,Textiles,100610,144973,145912,1879.25,0.024122599572717517,0.9935646142880641,False,False,False,False,0,Low,No flags
+SHP06959,Textiles,843890,67724,67790,912.66,0.043042384507934614,0.9990264050744948,False,False,False,False,0,Low,No flags
+SHP06950,Electronics,847130,142785,142581,740.73,0.0666537154415295,1.00143076567004,False,False,False,False,0,Low,No flags
+SHP07138,Minerals,847130,146216,146889,2133.78,0.02030954436964553,0.9954183090633063,False,False,False,False,0,Low,No flags
+SHP07117,Minerals,520942,46951,46381,1556.61,0.010676934497947179,1.0122895151031672,False,False,False,False,0,Low,No flags
+SHP07110,Agricultural,843890,149925,149748,1256.35,0.029516147508130874,1.0011819857360365,False,False,False,False,0,Low,No flags
+SHP07099,Agricultural,520942,40894,41026,2881.93,0.010426007656978934,0.9967825281528787,False,False,False,False,0,Low,No flags
+SHP07094,Electronics,100610,118855,118210,61.2,0.46405619197101383,1.00545639116826,False,False,False,False,0,Low,No flags
+SHP07091,Textiles,843890,6080,5879,2404.81,0.0035963958269670574,1.0341894880081646,False,False,False,False,0,Low,No flags
+SHP07090,Minerals,847130,126732,127687,1468.47,0.01819950854089184,0.9925207734538364,False,False,False,False,0,Low,No flags
+SHP07089,Minerals,847130,34106,34421,2201.67,0.0085255741439619,0.9908486098602597,False,False,False,False,0,Low,No flags
+SHP07086,Electronics,843890,140970,141782,213.35,0.1333761110773132,0.9942728978290615,False,False,False,False,0,Low,No flags
+SHP07068,Textiles,843890,70874,69935,223.89,0.16359547179810868,1.0134267534138843,False,False,False,False,0,Low,No flags
+SHP07063,Electronics,520942,54967,55080,1057.9,0.034965408627799024,0.9979484386347132,False,False,False,False,0,Low,No flags
+SHP07060,Textiles,520942,64716,65530,2375.46,0.017177531813868684,0.9875782084541431,False,False,False,False,0,Low,No flags
+SHP07055,Minerals,843890,61735,62424,967.65,0.037773175978854365,0.9889625784954504,False,False,False,False,0,Low,No flags
+SHP07053,Electronics,260300,73153,73150,972.86,0.02351274503084379,1.000041011619959,False,False,False,False,0,Low,No flags
+SHP07039,Textiles,843890,108654,108351,1407.59,0.04941838139104989,1.002796467037683,False,False,False,False,0,Low,No flags
+SHP07037,Electronics,100610,66926,67370,970.96,0.03063451521060485,0.9934095294641532,False,False,False,False,0,Low,No flags
+SHP00722,Textiles,847130,149587,148840,1222.22,0.02764616809642736,1.0050188121472723,False,False,False,False,0,Low,No flags
+SHP07289,Electronics,100610,138121,138255,2982.0,0.031232800263030193,0.9990307764637807,False,False,False,False,0,Low,No flags
+SHP07285,Textiles,843890,104488,104692,145.58,0.5863855823045433,0.9980514270431361,False,False,False,False,0,Low,No flags
+SHP07275,Agricultural,520942,22350,21675,2087.77,0.006278710968558309,1.0311418685121108,False,False,False,False,0,Low,No flags
+SHP07273,Machinery,100610,16440,16712,124.39,0.15314596179529918,0.9837242699856391,False,False,False,False,0,Low,No flags
+SHP07258,Minerals,260300,38459,38260,434.58,0.03764225417857993,1.0052012545739677,False,False,False,False,0,Low,No flags
+SHP07247,Electronics,260300,6293,6904,2301.74,0.0005794867766016467,0.9115005793742758,False,False,False,False,0,Low,No flags
+SHP07245,Electronics,260300,129324,129868,2118.58,0.01399100938195823,0.9958111313025534,False,False,False,False,0,Low,No flags
+SHP07211,Electronics,843890,65544,66335,2773.79,0.008524445486147706,0.9880756764905404,False,False,False,False,0,Low,No flags
+SHP07206,Electronics,100610,51375,52106,1411.59,0.007934407869457386,0.985970905461943,False,False,False,False,0,Low,No flags
+SHP07192,Machinery,260300,63804,63322,449.75,0.052003475374882424,1.007611888443195,False,False,False,False,0,Low,No flags
+SHP07189,Agricultural,843890,79360,78613,2447.25,0.025394076566052717,1.0095022451757343,False,False,False,False,0,Low,No flags
+SHP07187,Electronics,100610,50033,50067,2490.3,0.007934894816849883,0.999320909980626,False,False,False,False,0,Low,No flags
+SHP07183,Agricultural,260300,127216,127400,229.04,0.16269225708855137,0.9985557299843014,False,False,False,False,0,Low,No flags
+SHP07175,Electronics,847130,128189,128573,1245.67,0.03610795514962074,0.9970133698365908,False,False,False,False,0,Low,No flags
+SHP07147,Electronics,100610,130826,130704,995.13,0.15558134981264082,1.000933406781736,False,False,False,False,0,Low,No flags
+SHP07297,Electronics,847130,56029,56839,1242.79,0.010330714969996435,0.9857492214852478,False,False,False,False,0,Low,No flags
+SHP00859,Agricultural,843890,130695,130196,967.99,0.03812959352452928,1.0038326830317368,False,False,False,False,0,Low,No flags
+SHP00858,Minerals,100610,122369,122359,806.24,0.18600169900268104,1.0000817267221864,False,False,False,False,0,Low,No flags
+SHP00856,Machinery,847130,104976,104909,2328.72,0.039577560663198307,1.0006386487336645,False,False,False,False,0,Low,No flags
+SHP00843,Electronics,100610,5453,5271,643.04,0.007716134983034408,1.0345285524568393,False,False,False,False,0,Low,No flags
+SHP00842,Agricultural,260300,130788,129825,381.12,0.8799166828134083,1.0074176776429808,False,False,False,False,0,Low,No flags
+SHP00840,Machinery,260300,107302,107499,2881.3,0.013182594262852712,0.998167424813254,False,False,False,False,0,Low,No flags
+SHP00838,Electronics,100610,21939,21979,266.81,0.02634638031369257,0.9981800809863961,False,False,False,False,0,Low,No flags
+SHP00835,Textiles,843890,149575,149344,2993.94,0.026088381733887486,1.0015467645168201,False,False,False,False,0,Low,No flags
+SHP00801,Minerals,520942,105400,104575,2721.42,0.008794228150820258,1.0078890748266793,False,False,False,False,0,Low,No flags
+SHP00794,Minerals,843890,71617,72525,236.85,0.9107614752868346,0.987480179248535,False,False,False,False,0,Low,No flags
+SHP00759,Textiles,520942,61523,61696,362.99,0.04797325718017697,0.9971959284232366,False,False,False,False,0,Low,No flags
+SHP00744,Minerals,260300,70184,69792,2377.02,0.013157774160552232,1.0056166895919303,False,False,False,False,0,Low,No flags
+SHP00742,Textiles,847130,78690,78293,1909.55,0.028797108124797202,1.0050706959753746,False,False,False,False,0,Low,No flags
+SHP00740,Electronics,260300,32043,31061,686.31,0.01109788782808579,1.031615208782718,False,False,False,False,0,Low,No flags
+SHP00733,Machinery,100610,16332,16522,359.12,0.013155289183413858,0.9885001815760803,False,False,False,False,0,Low,No flags
+SHP07396,Textiles,260300,68968,68021,1941.38,0.017978362818251534,1.013922171094221,False,False,False,False,0,Low,No flags
+SHP07388,Minerals,260300,112601,112068,1092.08,0.02527749822120727,1.0047560409751222,False,False,False,False,0,Low,No flags
+SHP07379,Electronics,843890,42168,42617,2749.72,0.0034640568335863515,0.989464298284722,False,False,False,False,0,Low,No flags
+SHP07364,Agricultural,260300,120773,120953,824.65,0.05289044673230709,0.9985118186402983,False,False,False,False,0,Low,No flags
+SHP07357,Electronics,100610,79960,80275,526.46,0.04209600449742845,0.9960759887885394,False,False,False,False,0,Low,No flags
+SHP07343,Agricultural,843890,118722,118847,435.46,0.07118429069754753,0.9989482275530724,False,False,False,False,0,Low,No flags
+SHP07342,Textiles,847130,144554,144911,1946.27,0.02476569724542807,0.9975364189053971,False,False,False,False,0,Low,No flags
+SHP07330,Machinery,100610,141996,141911,1478.94,0.020634431248818953,1.0005989669581639,False,False,False,False,0,Low,No flags
+SHP07329,Machinery,100610,134981,134751,292.73,0.1674939779610679,1.001706851897203,False,False,False,False,0,Low,No flags
+SHP07325,Minerals,843890,45007,44355,1252.03,0.029981002261834703,1.0146995829106076,False,False,False,False,0,Low,No flags
+SHP07322,Electronics,847130,42080,42533,1387.43,0.018561479842563715,0.9893494463122752,False,False,False,False,0,Low,No flags
+SHP07310,Agricultural,260300,120659,119712,645.13,0.16759007256296377,1.0079106522320236,False,False,False,False,0,Low,No flags
+SHP07308,Electronics,843890,122193,122175,2025.94,0.04018269454239144,1.000147329650092,False,False,False,False,0,Low,No flags
+SHP07306,Electronics,520942,143450,143786,2921.12,0.05677211148087629,0.9976631939131765,False,False,False,False,0,Low,No flags
+SHP07299,Electronics,260300,102355,103267,1457.93,0.014943742572530705,0.9911685243107672,False,False,False,False,0,Low,No flags
+SHP07298,Electronics,520942,104306,103498,2873.32,0.011840039322924377,1.0078069141432684,False,False,False,False,0,Low,No flags
+SHP07534,Minerals,843890,103524,103794,1573.76,0.014575961343250671,0.9973986935661021,False,False,False,False,0,Low,No flags
+SHP07532,Minerals,260300,115149,114515,414.34,0.1372392327646467,1.0055363926123215,False,False,False,False,0,Low,No flags
+SHP07523,Minerals,843890,64691,64116,855.11,0.03265095177617801,1.008968120281989,False,False,False,False,0,Low,No flags
+SHP07511,Electronics,520942,11751,11140,2983.17,0.0008776957089342512,1.0548473967684022,False,False,False,False,0,Low,No flags
+SHP07495,Textiles,520942,32118,31550,2416.57,0.006879264247460025,1.0180031695721077,False,False,False,False,0,Low,No flags
+SHP07492,Machinery,847130,11449,11325,926.29,0.013918986513962171,1.0109492273730685,False,False,False,False,0,Low,No flags
+SHP07484,Minerals,100610,66096,66961,646.8,0.06867556406726914,0.9870820328250773,False,False,False,False,0,Low,No flags
+SHP07480,Electronics,260300,143543,143684,1940.51,0.025428597772754715,0.9990186798808497,False,False,False,False,0,Low,No flags
+SHP07475,Electronics,100610,129215,129199,2159.39,0.03367397756869285,1.0001238399678016,False,False,False,False,0,Low,No flags
+SHP07473,Textiles,520942,26585,26674,2768.64,0.00645742256592114,0.996663417560171,False,False,False,False,0,Low,No flags
+SHP07470,Electronics,520942,116560,115659,1336.92,0.028736147357543602,1.007790141709681,False,False,False,False,0,Low,No flags
+SHP07467,Agricultural,100610,16219,16906,1287.49,0.002653755929454715,0.9593635395717497,False,False,False,False,0,Low,No flags
+SHP07463,Agricultural,260300,72445,71543,1429.53,0.01689249846686207,1.0126078023007143,False,False,False,False,0,Low,No flags
+SHP07431,Agricultural,847130,74739,75271,68.87,0.4497383040450933,0.9929322049660559,False,False,False,False,0,Low,No flags
+SHP07421,Agricultural,843890,145923,146385,162.51,0.18012686758818083,0.9968439389281689,False,False,False,False,0,Low,No flags
+SHP07398,Minerals,100610,68724,69704,2781.03,0.007958681975143501,0.9859405486055319,False,False,False,False,0,Low,No flags
+SHP07644,Minerals,843890,139152,139959,1406.2,0.1459528787178903,0.9942340256789488,False,False,False,False,0,Low,No flags
+SHP07633,Minerals,100610,50677,51279,1875.1,0.005858723592260353,0.9882603014879385,False,False,False,False,0,Low,No flags
+SHP07623,Electronics,520942,143335,143876,2928.2,0.011542057725153551,0.996239817620729,False,False,False,False,0,Low,No flags
+SHP07622,Machinery,260300,77412,77439,1746.7,0.011372594699967162,0.9996513384728625,False,False,False,False,0,Low,No flags
+SHP07621,Agricultural,843890,11260,10977,2434.69,0.005876516855690015,1.0257811788284594,False,False,False,False,0,Low,No flags
+SHP07620,Machinery,260300,139312,140310,1267.71,0.03338172571732731,0.9928871783907063,False,False,False,False,0,Low,No flags
+SHP07616,Machinery,847130,135273,136181,1487.02,0.03717580167369789,0.9933324031986841,False,False,False,False,0,Low,No flags
+SHP07608,Agricultural,520942,137049,136155,1452.46,0.12580862812056787,1.0065660460504573,False,False,False,False,0,Low,No flags
+SHP07604,Textiles,100610,48771,48288,2153.63,0.004942372600260529,1.0100024850894633,False,False,False,False,0,Low,No flags
+SHP07585,Electronics,100610,100926,101439,510.32,0.05660275519460364,0.9949427734894863,False,False,False,False,0,Low,No flags
+SHP07564,Minerals,847130,60383,60326,196.26,2.3132962335523923,1.000944866226834,False,False,False,False,0,Low,No flags
+SHP07559,Textiles,843890,18284,18619,1778.37,0.01598961902581366,0.9820076266179709,False,False,False,False,0,Low,No flags
+SHP07558,Minerals,843890,49557,48579,410.99,0.03794196857942259,1.0201321558698202,False,False,False,False,0,Low,No flags
+SHP07545,Machinery,100610,73308,73882,585.23,0.025362132331896985,0.9922308546059934,False,False,False,False,0,Low,No flags
+SHP07541,Minerals,520942,73101,72790,1149.58,0.028174262684428766,1.0042725649127628,False,False,False,False,0,Low,No flags
+SHP07540,Machinery,100610,21438,22135,977.96,0.03446720435376838,0.9685114072735487,False,False,False,False,0,Low,No flags
+SHP07798,Machinery,843890,54172,54777,2822.13,0.02079678266723682,0.9889552184310934,False,False,False,False,0,Low,No flags
+SHP07791,Electronics,520942,14834,15557,254.61,0.014374945739037482,0.9535257440380536,False,False,False,False,0,Low,No flags
+SHP07778,Minerals,847130,142376,142796,1646.45,0.06884915296431059,0.9970587411412084,False,False,False,False,0,Low,No flags
+SHP07777,Machinery,520942,47637,47778,199.45,0.08493663406515857,0.997048850935577,False,False,False,False,0,Low,No flags
+SHP07766,Textiles,520942,24616,24736,2706.82,0.009522582303354671,0.9951487710219923,False,False,False,False,0,Low,No flags
+SHP07757,Minerals,260300,67893,67958,519.23,0.045528232104138346,0.999043526884252,False,False,False,False,0,Low,No flags
+SHP07750,Minerals,520942,104385,104391,2612.36,0.016621515040658244,0.9999425237807857,False,False,False,False,0,Low,No flags
+SHP07729,Machinery,260300,100005,100150,2772.61,0.033366237360195825,0.9985521717423864,False,False,False,False,0,Low,No flags
+SHP07716,Textiles,843890,146770,146145,697.1,0.12532361962142483,1.0042765746347806,False,False,False,False,0,Low,No flags
+SHP07695,Machinery,520942,14586,15055,2369.86,0.004089564089085207,0.9688475589505148,False,False,False,False,0,Low,No flags
+SHP07686,Minerals,520942,23528,23750,2042.16,0.00441422777205174,0.9906526315789473,False,False,False,False,0,Low,No flags
+SHP07675,Machinery,520942,66684,67632,590.07,0.04813046031064543,0.9859829666430092,False,False,False,False,0,Low,No flags
+SHP07661,Minerals,847130,111106,110939,917.15,0.6375930012022368,1.0015053317588944,False,False,False,False,0,Low,No flags
+SHP07658,Textiles,520942,119173,119676,674.59,0.059925338237007034,0.9957969851933554,False,False,False,False,0,Low,No flags
+SHP07657,Electronics,843890,63339,64004,1192.99,0.011327640188006529,0.9896100243734767,False,False,False,False,0,Low,No flags
+SHP07649,Minerals,100610,23865,23098,2632.05,0.004479781123131528,1.0332063382111005,False,False,False,False,0,Low,No flags
+SHP07904,Minerals,843890,34540,34379,2416.43,0.0036297139667486296,1.004683091422089,False,False,False,False,0,Low,No flags
+SHP07896,Textiles,100610,106228,105313,2026.06,0.015618357561180383,1.0086883860492057,False,False,False,False,0,Low,No flags
+SHP07889,Machinery,260300,112164,111867,148.7,0.19028689272721475,1.0026549384536996,False,False,False,False,0,Low,No flags
+SHP07888,Minerals,520942,29638,30581,2478.77,0.005352164998777497,0.9691638599130179,False,False,False,False,0,Low,No flags
+SHP07878,Minerals,520942,107819,108686,557.34,0.20558217801446196,0.992022891632777,False,False,False,False,0,Low,No flags
+SHP07874,Machinery,520942,103048,103457,2870.01,0.04384017262021171,0.9960466667311056,False,False,False,False,0,Low,No flags
+SHP07865,Minerals,520942,72295,71980,1530.85,0.010782054259109042,1.0043762156154488,False,False,False,False,0,Low,No flags
+SHP07859,Machinery,260300,45808,45143,2392.5,0.009022855550204507,1.0147309660412467,False,False,False,False,0,Low,No flags
+SHP07851,Machinery,260300,17665,18314,391.29,0.036290630406358916,0.9645626296822103,False,False,False,False,0,Low,No flags
+SHP07843,Textiles,100610,47665,47658,1488.3,0.009998898893941167,1.0001468798522808,False,False,False,False,0,Low,No flags
+SHP07833,Agricultural,100610,61420,60506,250.64,0.06517358116413471,1.015105939906786,False,False,False,False,0,Low,No flags
+SHP07827,Textiles,847130,35751,36285,1174.17,0.02380601317479145,0.985283174865647,False,False,False,False,0,Low,No flags
+SHP07823,Electronics,100610,72467,72808,1763.05,0.16310794380049365,0.9953164487418965,False,False,False,False,0,Low,No flags
+SHP07815,Minerals,260300,144525,144914,1019.87,0.08125529670403217,0.997315649281643,False,False,False,False,0,Low,No flags
+SHP07805,Textiles,847130,116916,116905,2812.62,0.20994121085850506,1.000094093494718,False,False,False,False,0,Low,No flags
+SHP07802,Minerals,100610,133870,134674,1779.74,0.016891725172219447,0.9940300280677785,False,False,False,False,0,Low,No flags
+SHP07918,Minerals,260300,53827,53053,2927.87,0.018402757253867447,1.014589184400505,False,False,False,False,0,Low,No flags
+SHP00717,Agricultural,520942,36625,35763,1696.1,0.005379585459499734,1.0241031233397646,False,False,False,False,0,Low,No flags
+SHP00708,Machinery,520942,75268,75162,1226.63,0.013524711656922705,1.001410287113169,False,False,False,False,0,Low,No flags
+SHP00696,Machinery,260300,107489,107026,1144.54,0.06674810644808107,1.0043260516136265,False,False,False,False,0,Low,No flags
+SHP00692,Electronics,847130,47137,47593,1469.7,0.00658033069536577,0.9904187590612065,False,False,False,False,0,Low,No flags
+SHP00669,Minerals,100610,109186,109905,1015.31,0.056039379466188186,0.993457986442837,False,False,False,False,0,Low,No flags
+SHP00662,Textiles,260300,71985,71596,847.77,0.04754255420197916,1.0054332644281803,False,False,False,False,0,Low,No flags
+SHP00659,Minerals,847130,147429,147897,591.16,0.06760350670108772,0.99683563561127,False,False,False,False,0,Low,No flags
+SHP00655,Textiles,847130,75990,75260,703.05,0.022226238096009016,1.0096997076800425,False,False,False,False,0,Low,No flags
+SHP00641,Agricultural,847130,17940,18471,2281.22,0.0017394852928176532,0.9712522332304694,False,False,False,False,0,Low,No flags
+SHP00637,Agricultural,260300,19175,18716,1739.04,0.005205948235276129,1.0245244710408208,False,False,False,False,0,Low,No flags
+SHP00633,Electronics,843890,141694,142248,1653.84,0.017427941548818784,0.9961053933974467,False,False,False,False,0,Low,No flags
+SHP00624,Minerals,260300,142941,143239,2193.96,0.021833798197214805,0.9979195610134112,False,False,False,False,0,Low,No flags
+SHP00617,Textiles,520942,117651,118340,2043.27,0.014023322418978312,0.9941777928004056,False,False,False,False,0,Low,No flags
+SHP00601,Minerals,843890,101444,101363,1623.14,0.013580750499336632,1.000799108155836,False,False,False,False,0,Low,No flags
+SHP07911,Machinery,260300,75145,74615,2627.19,0.018125984636314593,1.0071031293975743,False,False,False,False,0,Low,No flags
+SHP08084,Agricultural,843890,56089,56807,578.91,0.02142101561614533,0.9873607125882373,False,False,False,False,0,Low,No flags
+SHP08083,Minerals,843890,19492,19758,2940.06,0.0031751899764445608,0.9865370988966494,False,False,False,False,0,Low,No flags
+SHP08075,Minerals,843890,71442,71233,1088.35,0.013437561173494721,1.0029340333834038,False,False,False,False,0,Low,No flags
+SHP08071,Agricultural,520942,101002,101795,2334.86,0.009213688639337272,0.9922098334888747,False,False,False,False,0,Low,No flags
+SHP08058,Electronics,100610,66312,67221,1147.59,0.0439419796494005,0.9864774400856875,False,False,False,False,0,Low,No flags
+SHP08054,Textiles,260300,133164,133362,1344.12,0.029104439327905404,0.9985153192063706,False,False,False,False,0,Low,No flags
+SHP08050,Minerals,520942,142297,141402,2095.96,0.014990303755297531,1.0063294720018103,False,False,False,False,0,Low,No flags
+SHP08044,Textiles,847130,125246,124673,1269.84,0.02729145645581728,1.0045960231966826,False,False,False,False,0,Low,No flags
+SHP08039,Machinery,847130,44072,44980,438.05,0.020146079187274474,0.9798132503334815,False,False,False,False,0,Low,No flags
+SHP08038,Agricultural,100610,41825,40903,2685.0,0.03024714794525501,1.0225411339021588,False,False,False,False,0,Low,No flags
+SHP08014,Minerals,520942,35269,34282,2104.66,0.0794197916850097,1.0287906189837233,False,False,False,False,0,Low,No flags
+SHP08009,Machinery,520942,44195,44390,38.1,0.29934806536279734,0.9956071187204325,False,False,False,False,0,Low,No flags
+SHP08005,Machinery,260300,111534,110694,1614.01,0.014175109962620572,1.007588487180877,False,False,False,False,0,Low,No flags
+SHP07993,Agricultural,843890,65345,65521,2427.59,0.014005016961641177,0.9973138383113811,False,False,False,False,0,Low,No flags
+SHP07992,Machinery,847130,138636,138678,379.74,0.24651004150215147,0.9996971401375849,False,False,False,False,0,Low,No flags
+SHP07920,Agricultural,847130,134670,134597,2710.13,0.051387118117578026,1.0005423597851364,False,False,False,False,0,Low,No flags
+SHP08227,Electronics,843890,46942,47325,2292.69,0.0061411634556749325,0.9919070258848389,False,False,False,False,0,Low,No flags
+SHP08217,Textiles,520942,60475,61274,2426.05,0.012849150022617477,0.9869602115089597,False,False,False,False,0,Low,No flags
+SHP08216,Agricultural,100610,31393,31020,1794.15,0.0045330109268478915,1.0120245003223727,False,False,False,False,0,Low,No flags
+SHP08208,Electronics,520942,39160,39676,1487.52,0.09469674986051817,0.9869946567194273,False,False,False,False,0,Low,No flags
+SHP08195,Electronics,260300,6733,7478,1743.49,0.000838609000384486,0.9003744316662209,False,False,False,False,0,Low,No flags
+SHP08173,Agricultural,260300,123372,124289,1836.63,0.03200239583737264,0.9926220341301322,False,False,False,False,0,Low,No flags
+SHP08172,Minerals,520942,24677,25042,2091.33,0.003257776961280677,0.9854244868620717,False,False,False,False,0,Low,No flags
+SHP08158,Electronics,520942,135756,134758,2468.2,0.01518553996901325,1.007405868297244,False,False,False,False,0,Low,No flags
+SHP08157,Minerals,847130,106930,107292,1612.23,0.30705686924092485,0.9966260298997129,False,False,False,False,0,Low,No flags
+SHP08146,Machinery,847130,46948,46058,2044.68,0.005523466475793887,1.0193234617221765,False,False,False,False,0,Low,No flags
+SHP08134,Machinery,100610,19593,20058,1163.0,0.004600477211753441,0.9768172300329045,False,False,False,False,0,Low,No flags
+SHP08121,Minerals,843890,72187,72929,2758.93,0.01617110863150279,0.9898257209066352,False,False,False,False,0,Low,No flags
+SHP08119,Agricultural,260300,136904,136972,522.91,0.16825950132044823,0.999503548170429,False,False,False,False,0,Low,No flags
+SHP08115,Agricultural,520942,106702,106491,1109.82,0.03162615748973992,1.0019813880985247,False,False,False,False,0,Low,No flags
+SHP08107,Agricultural,843890,61004,60841,2255.45,0.00694947948052379,1.002679114412978,False,False,False,False,0,Low,No flags
+SHP08100,Textiles,260300,104523,104651,362.47,0.0797023700617575,0.9987768869862687,False,False,False,False,0,Low,No flags
+SHP08331,Textiles,100610,53462,52928,2011.61,0.01032506687181301,1.010089177750907,False,False,False,False,0,Low,No flags
+SHP08327,Agricultural,847130,101730,100801,2902.35,0.026941511932066713,1.0092161784109284,False,False,False,False,0,Low,No flags
+SHP08324,Electronics,843890,61134,61598,1004.24,0.016316238606896946,0.9924672878989578,False,False,False,False,0,Low,No flags
+SHP08316,Machinery,520942,46723,46830,1633.3,0.04736175856542011,0.9977151398676062,False,False,False,False,0,Low,No flags
+SHP08308,Agricultural,843890,79819,80537,1082.77,0.01801060590673457,0.9910848429914201,False,False,False,False,0,Low,No flags
+SHP08305,Textiles,520942,110919,111302,2183.32,0.01530669046899653,0.9965589117895456,False,False,False,False,0,Low,No flags
+SHP08298,Minerals,260300,30373,30496,1230.34,0.014659543929246987,0.9959666841552991,False,False,False,False,0,Low,No flags
+SHP08293,Agricultural,260300,139610,139307,1820.39,0.2296178357253379,1.0021750522227886,False,False,False,False,0,Low,No flags
+SHP08292,Machinery,843890,141314,140418,2836.04,0.027636122620197462,1.00638094831147,False,False,False,False,0,Low,No flags
+SHP08286,Minerals,260300,79403,78966,2761.61,0.15798038817219656,1.0055340273028899,False,False,False,False,0,Low,No flags
+SHP08276,Electronics,260300,137184,136546,2057.68,0.05797326833259239,1.0046724180862128,False,False,False,False,0,Low,No flags
+SHP08272,Textiles,100610,22334,23093,1865.72,0.003618716360066627,0.967132897414801,False,False,False,False,0,Low,No flags
+SHP08261,Agricultural,843890,30185,30931,292.1,0.06544515388229498,0.9758818014289871,False,False,False,False,0,Low,No flags
+SHP08252,Machinery,520942,133511,132728,2640.12,0.018429318457076935,1.0058992827436561,False,False,False,False,0,Low,No flags
+SHP08246,Textiles,100610,62983,63257,2184.03,0.22355018478570318,0.9956684635692492,False,False,False,False,0,Low,No flags
+SHP08238,Machinery,847130,118555,118381,2795.41,0.01355404107072116,1.0014698304626588,False,False,False,False,0,Low,No flags
+SHP08425,Machinery,520942,141276,140846,1646.54,0.021590775499343764,1.003052979850333,False,False,False,False,0,Low,No flags
+SHP08419,Textiles,260300,79624,79543,1335.77,0.05804193226362756,1.0010183171366431,False,False,False,False,0,Low,No flags
+SHP08412,Electronics,100610,22128,21328,2341.92,0.0023284025411003453,1.037509377344336,False,False,False,False,0,Low,No flags
+SHP08405,Electronics,847130,13184,12581,1930.33,0.007383697592107554,1.0479294173754075,False,False,False,False,0,Low,No flags
+SHP08395,Electronics,847130,69540,69224,661.44,0.06461847113700855,1.0045648907893217,False,False,False,False,0,Low,No flags
+SHP08392,Machinery,100610,16988,16760,1196.75,0.005525539805768559,1.0136038186157519,False,False,False,False,0,Low,No flags
+SHP08391,Electronics,260300,136685,136742,1679.65,0.02392739564963588,0.9995831566014831,False,False,False,False,0,Low,No flags
+SHP08390,Textiles,847130,59398,59527,886.46,0.11755411134609531,0.997832916155694,False,False,False,False,0,Low,No flags
+SHP08371,Machinery,847130,21256,22008,2318.81,0.011487181562394824,0.9658306070519811,False,False,False,False,0,Low,No flags
+SHP08366,Electronics,520942,59659,59835,876.42,0.015474254235178026,0.9970585777554942,False,False,False,False,0,Low,No flags
+SHP08365,Textiles,520942,60410,60025,1759.22,0.007007975937387836,1.0064139941690962,False,False,False,False,0,Low,No flags
+SHP08356,Electronics,520942,26631,25654,262.71,0.06477337527513362,1.0380837296328058,False,False,False,False,0,Low,No flags
+SHP08345,Electronics,847130,129389,130380,2137.34,0.03790694862326283,0.9923991409725418,False,False,False,False,0,Low,No flags
+SHP08339,Electronics,260300,34955,35694,2661.32,0.0026997861441892946,0.9792962402644703,False,False,False,False,0,Low,No flags
+SHP08333,Textiles,100610,30557,29702,2577.8,0.0025210349706169936,1.0287859403407178,False,False,False,False,0,Low,No flags
+SHP08332,Electronics,847130,55704,55718,1395.12,0.009642054612580709,0.999748734699738,False,False,False,False,0,Low,No flags
+SHP08510,Minerals,260300,39309,38427,576.99,0.034080889038082186,1.0229526114450778,False,False,False,False,0,Low,No flags
+SHP08506,Textiles,260300,76189,75535,557.53,0.08827812002654195,1.008658237902959,False,False,False,False,0,Low,No flags
+SHP08505,Minerals,520942,127413,126887,551.41,0.4376280807384705,1.0041454207286797,False,False,False,False,0,Low,No flags
+SHP08475,Machinery,100610,70351,70732,1802.02,0.04461723113902335,0.9946134705649494,False,False,False,False,0,Low,No flags
+SHP08472,Minerals,843890,128521,128890,1777.79,0.0445975110972315,0.9971370936457444,False,False,False,False,0,Low,No flags
+SHP08470,Minerals,100610,24267,23541,189.76,0.10819169926639903,1.030839811392889,False,False,False,False,0,Low,No flags
+SHP08463,Minerals,520942,67182,66575,1000.71,0.015348498999181089,1.0091175366128426,False,False,False,False,0,Low,No flags
+SHP08457,Minerals,520942,38575,39565,213.61,0.0738895723740843,0.9749778844938708,False,False,False,False,0,Low,No flags
+SHP08456,Machinery,260300,19698,19815,949.98,0.0045581827593033615,0.9940953822861469,False,False,False,False,0,Low,No flags
+SHP08454,Minerals,520942,146631,147481,1080.23,0.034778513127734216,0.994236545724534,False,False,False,False,0,Low,No flags
+SHP08442,Machinery,100610,79353,79037,1913.3,0.02539768274990271,1.0039981274592913,False,False,False,False,0,Low,No flags
+SHP08441,Agricultural,520942,138115,137795,2139.67,0.030737939784661945,1.0023222903588664,False,False,False,False,0,Low,No flags
+SHP08437,Textiles,847130,24847,25039,2706.16,0.004540872818951916,0.992331962139063,False,False,False,False,0,Low,No flags
+SHP08432,Minerals,520942,136520,137310,1836.95,0.03343177855849747,0.9942465952953171,False,False,False,False,0,Low,No flags
+SHP08429,Machinery,847130,24748,24088,604.78,0.02697472997094146,1.0273995350381933,False,False,False,False,0,Low,No flags
+SHP08428,Textiles,847130,137623,138617,2473.41,0.025337430624324322,0.9928291623682521,False,False,False,False,0,Low,No flags
+SHP00575,Electronics,260300,56033,55537,88.42,0.13389268790078737,1.0089309829483046,False,False,False,False,0,Low,No flags
+SHP00573,Electronics,260300,144707,145091,756.98,0.038830707095726134,0.9973533851169266,False,False,False,False,0,Low,No flags
+SHP00564,Textiles,100610,69140,68831,895.38,0.03623585691811218,1.0044892562944023,False,False,False,False,0,Low,No flags
+SHP00551,Electronics,520942,59786,59384,1295.8,0.016154864477045644,1.0067695002020747,False,False,False,False,0,Low,No flags
+SHP00547,Machinery,843890,60468,61393,715.25,0.019587828905491027,0.9849331356995097,False,False,False,False,0,Low,No flags
+SHP00531,Machinery,520942,58592,58164,300.72,0.08717631004009466,1.0073585035417096,False,False,False,False,0,Low,No flags
+SHP00526,Machinery,847130,148464,147814,2273.61,0.01417997783862702,1.0043974183771496,False,False,False,False,0,Low,No flags
+SHP00518,Minerals,520942,113464,113319,2884.67,0.030117490010336152,1.0012795735931308,False,False,False,False,0,Low,No flags
+SHP00517,Agricultural,260300,33054,32667,2481.44,0.003351910248519432,1.0118468178896134,False,False,False,False,0,Low,No flags
+SHP00513,Textiles,520942,100402,101049,1534.19,0.11963985831157466,0.9935971657314768,False,False,False,False,0,Low,No flags
+SHP00487,Agricultural,260300,21999,22776,2512.91,0.005066199258142066,0.9658851422550052,False,False,False,False,0,Low,No flags
+SHP00483,Agricultural,100610,38340,37550,1140.49,0.01209249261850154,1.0210386151797604,False,False,False,False,0,Low,No flags
+SHP00461,Minerals,260300,113117,113504,2375.72,0.08594544410507723,0.9965904285311531,False,False,False,False,0,Low,No flags
+SHP08517,Machinery,100610,26056,26953,651.63,0.026306501025363926,0.9667198456572552,False,False,False,False,0,Low,No flags
+SHP08512,Textiles,260300,128804,128074,2882.0,0.012411156512349777,1.005699829785905,False,False,False,False,0,Low,No flags
+SHP08511,Textiles,260300,122648,123593,1102.71,0.027736699730301708,0.9923539359025187,False,False,False,False,0,Low,No flags
+SHP08697,Agricultural,847130,143432,142899,1230.29,0.027347852417090972,1.0037299071372088,False,False,False,False,0,Low,No flags
+SHP08696,Agricultural,100610,12309,11401,2538.05,0.002262027170347902,1.0796421366546793,False,False,False,False,0,Low,No flags
+SHP08693,Textiles,847130,123448,123638,791.03,0.09870956403545085,0.9984632556333813,False,False,False,False,0,Low,No flags
+SHP08676,Electronics,847130,22744,21843,2451.26,0.02556058818033179,1.0412489126951425,False,False,False,False,0,Low,No flags
+SHP08675,Electronics,260300,43419,42991,2823.75,0.003735753455242845,1.0099555720964852,False,False,False,False,0,Low,No flags
+SHP08671,Agricultural,100610,142695,143473,1149.87,0.026768040770306385,0.9945773769280631,False,False,False,False,0,Low,No flags
+SHP08670,Agricultural,520942,30870,31378,2223.41,0.005777810636619221,0.9838103129581235,False,False,False,False,0,Low,No flags
+SHP08654,Agricultural,520942,28483,27523,2552.14,0.009687880127614039,1.0348799186135231,False,False,False,False,0,Low,No flags
+SHP08650,Agricultural,100610,142817,143497,1589.4,0.1557294982203371,0.9952612249733443,False,False,False,False,0,Low,No flags
+SHP08630,Electronics,100610,53110,52459,1623.97,0.0068734354991157156,1.0124096913780285,False,False,False,False,0,Low,No flags
+SHP08625,Electronics,260300,64723,65518,836.31,0.02350171842721982,0.9878659299734424,False,False,False,False,0,Low,No flags
+SHP08613,Minerals,843890,62922,62678,900.12,0.027510434001689715,1.003892912983822,False,False,False,False,0,Low,No flags
+SHP08593,Electronics,520942,37716,37863,376.76,0.07069644659820305,0.9961175818080976,False,False,False,False,0,Low,No flags
+SHP08590,Textiles,100610,46349,45805,2290.26,0.005159979676344218,1.0118764327038532,False,False,False,False,0,Low,No flags
+SHP08587,Minerals,260300,11492,11558,1766.53,0.003265767524593912,0.9942896694929919,False,False,False,False,0,Low,No flags
+SHP08574,Agricultural,847130,147470,146848,778.22,0.0821042215744796,1.0042356722597516,False,False,False,False,0,Low,No flags
+SHP00426,Minerals,843890,36802,37705,2034.24,0.019307659906163156,0.9760509216284312,False,False,False,False,0,Low,No flags
+SHP00421,Electronics,843890,75533,74871,929.96,0.02363846710695081,1.0088418746911354,False,False,False,False,0,Low,No flags
+SHP00410,Machinery,520942,43402,43245,1990.83,0.005003662471799738,1.003630477511851,False,False,False,False,0,Low,No flags
+SHP00390,Agricultural,847130,52118,51394,1864.62,0.011919404444182812,1.0140872475386231,False,False,False,False,0,Low,No flags
+SHP00389,Textiles,847130,28989,29254,2792.17,0.0032212992551215796,0.9909414097217475,False,False,False,False,0,Low,No flags
+SHP00377,Machinery,847130,59336,58570,178.99,0.06674140393134718,1.0130783677650674,False,False,False,False,0,Low,No flags
+SHP00346,Machinery,843890,104931,104839,1469.25,0.020370242568198554,1.0008775360314386,False,False,False,False,0,Low,No flags
+SHP08790,Minerals,520942,40838,41051,798.17,0.016393636296922195,0.9948113322452559,False,False,False,False,0,Low,No flags
+SHP08787,Machinery,843890,110017,109588,2324.68,0.0142676073027636,1.0039146621892907,False,False,False,False,0,Low,No flags
+SHP08781,Electronics,260300,134969,134163,295.2,0.13029696768897014,1.0060076175994872,False,False,False,False,0,Low,No flags
+SHP08776,Electronics,100610,50055,49577,120.77,0.15934852478220538,1.0096415676624242,False,False,False,False,0,Low,No flags
+SHP08748,Minerals,843890,41685,40736,1686.17,0.012645374214572782,1.023296347211312,False,False,False,False,0,Low,No flags
+SHP08745,Machinery,843890,138427,138183,1925.69,0.09559090894526559,1.0017657743716666,False,False,False,False,0,Low,No flags
+SHP08719,Machinery,260300,49620,48764,1030.88,0.015447250770407504,1.0175539332294314,False,False,False,False,0,Low,No flags
+SHP08715,Minerals,100610,138516,139367,2668.97,0.09234639238720545,0.9938938199143269,False,False,False,False,0,Low,No flags
+SHP08707,Agricultural,843890,102801,102047,534.62,0.1496404515545934,1.007388752241614,False,False,False,False,0,Low,No flags
+SHP08931,Machinery,520942,20099,19660,148.38,0.042080230180680564,1.0223296032553408,False,False,False,False,0,Low,No flags
+SHP08928,Minerals,847130,132258,132531,2058.47,0.35302545467862434,0.9979401045793059,False,False,False,False,0,Low,No flags
+SHP08879,Machinery,843890,53511,52650,424.43,0.0549356545703203,1.0163532763532763,False,False,False,False,0,Low,No flags
+SHP08875,Minerals,847130,131316,131343,56.9,0.5487014533593737,0.9997944313743404,False,False,False,False,0,Low,No flags
+SHP08874,Minerals,260300,72662,71939,2937.41,0.007567071854437656,1.0100501814036893,False,False,False,False,0,Low,No flags
+SHP08869,Electronics,847130,72434,71534,1840.54,0.010140364489279605,1.012581429809601,False,False,False,False,0,Low,No flags
+SHP08860,Minerals,847130,67783,67485,1191.78,0.013168657103272101,1.0044157961028377,False,False,False,False,0,Low,No flags
+SHP08852,Agricultural,843890,74052,73269,920.24,0.02307723317823275,1.0106866478319616,False,False,False,False,0,Low,No flags
+SHP08848,Agricultural,260300,15622,15836,519.84,0.03069617397794434,0.9864864864864865,False,False,False,False,0,Low,No flags
+SHP08832,Textiles,260300,140391,139584,639.73,0.04557705492284932,1.0057814649243466,False,False,False,False,0,Low,No flags
+SHP08830,Agricultural,260300,105275,106140,2282.04,0.08704145215320419,0.9918503862822687,False,False,False,False,0,Low,No flags
+SHP08828,Agricultural,100610,54056,54309,804.85,0.03666093087946898,0.9953414719475593,False,False,False,False,0,Low,No flags
+SHP00436,Textiles,100610,70618,70714,569.68,0.041625527236244186,0.9986424187572475,False,False,False,False,0,Low,No flags
+SHP00433,Textiles,847130,133133,132205,1831.97,0.025067968807427794,1.0070194016867744,False,False,False,False,0,Low,No flags
+SHP00430,Agricultural,520942,133467,134073,619.97,0.059883107538762644,0.995480074287888,False,False,False,False,0,Low,No flags
+SHP00428,Machinery,847130,109245,109297,2824.11,0.010977010020305494,0.999524232138119,False,False,False,False,0,Low,No flags
+SHP09051,Agricultural,260300,25368,24468,2522.16,0.00708313062311446,1.0367827366356057,False,False,False,False,0,Low,No flags
+SHP09045,Textiles,847130,56235,56381,2345.42,0.006198685608371357,0.9974104751600716,False,False,False,False,0,Low,No flags
+SHP09038,Machinery,847130,116974,116097,558.85,0.05767759161169579,1.0075540280971946,False,False,False,False,0,Low,No flags
+SHP09033,Agricultural,520942,127591,127271,514.6,0.1075670676548472,1.0025143198371977,False,False,False,False,0,Low,No flags
+SHP09027,Machinery,260300,51037,51011,1541.14,0.012112799691815555,1.0005096939875713,False,False,False,False,0,Low,No flags
+SHP09018,Textiles,847130,138673,138280,2391.13,0.020951862578626027,1.0028420595892393,False,False,False,False,0,Low,No flags
+SHP08998,Minerals,847130,22769,22189,472.05,0.0132621108645252,1.0261390779214927,False,False,False,False,0,Low,No flags
+SHP08985,Electronics,843890,7117,7292,2048.73,0.0009988094926236676,0.9760010970927043,False,False,False,False,0,Low,No flags
+SHP08984,Electronics,843890,38959,39214,2323.49,0.004328200559332962,0.9934972203804764,False,False,False,False,0,Low,No flags
+SHP08975,Minerals,100610,36025,36511,328.24,1.4441054042613235,0.9866889430582564,False,False,False,False,0,Low,No flags
+SHP08973,Electronics,843890,33328,33657,312.76,0.20297322151779246,0.9902249160650087,False,False,False,False,0,Low,No flags
+SHP08965,Minerals,260300,39055,39198,763.2,0.011548791225532708,0.9963518546864636,False,False,False,False,0,Low,No flags
+SHP08961,Minerals,843890,76126,75633,637.3,0.029035198856747154,1.0065183187233087,False,False,False,False,0,Low,No flags
+SHP08960,Machinery,100610,61790,62777,421.19,0.04118567883763576,0.9842776813164057,False,False,False,False,0,Low,No flags
+SHP08942,Agricultural,843890,114306,114725,916.57,0.029302304005100414,0.9963477881891479,False,False,False,False,0,Low,No flags
+SHP08935,Agricultural,843890,15995,15162,2852.33,0.0035672367456670326,1.0549399815327793,False,False,False,False,0,Low,No flags
+SHP09151,Textiles,847130,10676,10982,501.82,0.004409235357392356,0.9721362229102167,False,False,False,False,0,Low,No flags
+SHP09144,Machinery,847130,60105,61045,2671.48,0.005016446985432098,0.9846015234662954,False,False,False,False,0,Low,No flags
+SHP09133,Machinery,100610,19910,20327,2039.59,0.0020738826949429187,0.9794854134894475,False,False,False,False,0,Low,No flags
+SHP09129,Minerals,260300,69053,70000,2974.79,0.004924211069726605,0.9864714285714286,False,False,False,False,0,Low,No flags
+SHP09121,Machinery,260300,28572,28546,126.76,0.05459005452203667,1.000910810621453,False,False,False,False,0,Low,No flags
+SHP09104,Electronics,847130,69517,70505,1139.43,0.019436231196644355,0.9859868094461386,False,False,False,False,0,Low,No flags
+SHP09103,Agricultural,100610,34708,34383,218.43,0.08082278093985147,1.0094523456359248,False,False,False,False,0,Low,No flags
+SHP09096,Minerals,100610,7210,6611,1672.25,0.0015251348731660504,1.0906065648162153,False,False,False,False,0,Low,No flags
+SHP09091,Textiles,843890,79187,79393,1102.43,0.05936322637527331,0.9974053128109531,False,False,False,False,0,Low,No flags
+SHP09086,Minerals,100610,48659,48518,76.95,0.34706129473784064,1.0029061379281916,False,False,False,False,0,Low,No flags
+SHP09082,Agricultural,520942,68791,69784,1997.85,0.04822481085934888,0.9857703771638198,False,False,False,False,0,Low,No flags
+SHP09077,Textiles,100610,53553,52789,1018.08,0.016541495793784233,1.0144727121180548,False,False,False,False,0,Low,No flags
+SHP09067,Textiles,260300,148914,149539,463.78,0.08656985296054026,0.9958204883007109,False,False,False,False,0,Low,No flags
+SHP09064,Machinery,520942,135351,135940,844.6,0.04979942771001442,0.9956672061203472,False,False,False,False,0,Low,No flags
+SHP09059,Agricultural,847130,25934,25686,337.85,0.015583003770288954,1.009655065015962,False,False,False,False,0,Low,No flags
+SHP09053,Agricultural,843890,132657,131894,2615.37,0.012383319717907983,1.0057849485192654,False,False,False,False,0,Low,No flags
+SHP09352,Electronics,260300,35067,35265,218.44,0.03266865792044331,0.994385367928541,False,False,False,False,0,Low,No flags
+SHP09339,Minerals,100610,43296,43948,1485.38,0.010051067856315416,0.9851642850641668,False,False,False,False,0,Low,No flags
+SHP09336,Textiles,847130,140362,139790,1903.36,0.03409353944697472,1.00409185206381,False,False,False,False,0,Low,No flags
+SHP09325,Agricultural,843890,107697,107058,1771.03,0.031377902932384294,1.0059687272319677,False,False,False,False,0,Low,No flags
+SHP09316,Agricultural,100610,122063,122795,2600.41,0.2510155381297647,0.9940388452298546,False,False,False,False,0,Low,No flags
+SHP09306,Textiles,847130,123147,123364,1216.14,0.06945167740799822,0.9982409779190039,False,False,False,False,0,Low,No flags
+SHP09298,Agricultural,847130,39702,40696,865.16,0.009896436837047539,0.975574995085512,False,False,False,False,0,Low,No flags
+SHP09297,Minerals,843890,6947,6835,2328.74,0.002237928187870718,1.0163862472567666,False,False,False,False,0,Low,No flags
+SHP09277,Textiles,260300,57321,57496,2006.56,0.007683378400503154,0.9969563100041742,False,False,False,False,0,Low,No flags
+SHP09268,Textiles,100610,15277,15025,2345.45,0.004991158801066612,1.0167720465890182,False,False,False,False,0,Low,No flags
+SHP09262,Agricultural,260300,108240,108859,1010.73,0.022112515896665002,0.9943137453035578,False,False,False,False,0,Low,No flags
+SHP09255,Minerals,843890,20672,20333,1866.62,0.003510162465404175,1.016672404465647,False,False,False,False,0,Low,No flags
+SHP09222,Electronics,520942,113068,113639,2510.56,0.03502096723533109,0.9949753165726555,False,False,False,False,0,Low,No flags
+SHP09197,Electronics,843890,52365,52314,2069.38,0.03286322159607878,1.0009748824406468,False,False,False,False,0,Low,No flags
+SHP09189,Textiles,847130,131697,130945,671.55,0.08239874015275085,1.0057428691435335,False,False,False,False,0,Low,No flags
+SHP09153,Electronics,520942,108331,107986,523.35,0.09486494895528236,1.0031948585927806,False,False,False,False,0,Low,No flags
+SHP00311,Machinery,520942,66709,66370,880.19,0.22966460065268277,1.0051077293958113,False,False,False,False,0,Low,No flags
+SHP00295,Electronics,260300,127775,127259,2394.75,0.014393390946886584,1.0040547230451284,False,False,False,False,0,Low,No flags
+SHP00289,Textiles,843890,74184,74721,652.19,0.07258838179034766,0.9928132653470911,False,False,False,False,0,Low,No flags
+SHP00286,Minerals,520942,127788,127158,1827.54,0.01888803450197748,1.0049544660972962,False,False,False,False,0,Low,No flags
+SHP00274,Machinery,260300,10469,11120,2405.09,0.0008910648230167499,0.941456834532374,False,False,False,False,0,Low,No flags
+SHP00266,Electronics,843890,73056,72357,568.13,0.035600854771377075,1.0096604336829884,False,False,False,False,0,Low,No flags
+SHP00265,Textiles,843890,60147,61070,1207.48,0.12119709286566291,0.9848861961683314,False,False,False,False,0,Low,No flags
+SHP00257,Minerals,520942,128257,127908,346.3,0.22270826601080854,1.0027285236263563,False,False,False,False,0,Low,No flags
+SHP00255,Textiles,843890,34956,35331,1275.77,0.010791620001435982,0.9893860915343466,False,False,False,False,0,Low,No flags
+SHP00253,Minerals,260300,68530,67937,111.53,0.16945766968182463,1.008728675096045,False,False,False,False,0,Low,No flags
+SHP00243,Machinery,100610,145146,144909,1901.4,0.021116565343640654,1.0016355091816243,False,False,False,False,0,Low,No flags
+SHP00239,Agricultural,100610,36822,36857,1300.33,0.027954024792354898,0.9990503839162167,False,False,False,False,0,Low,No flags
+SHP09425,Textiles,847130,106457,106231,890.07,0.024196884400372928,1.0021274392597264,False,False,False,False,0,Low,No flags
+SHP09420,Textiles,843890,63861,63284,1044.02,0.013671964332154868,1.0091176284684913,False,False,False,False,0,Low,No flags
+SHP09418,Textiles,520942,147193,146227,1308.86,0.07482297653266017,1.0066061671237185,False,False,False,False,0,Low,No flags
+SHP09353,Electronics,100610,21880,21548,1678.28,0.004598644475979207,1.0154074624095044,False,False,False,False,0,Low,No flags
+SHP09578,Minerals,260300,111076,111440,2120.58,0.05264322536960236,0.9967336683417085,False,False,False,False,0,Low,No flags
+SHP09553,Machinery,843890,25868,25129,1313.37,0.005563812659622469,1.029408253412392,False,False,False,False,0,Low,No flags
+SHP09547,Textiles,520942,51010,51450,2827.31,0.004011090336880146,0.9914480077745383,False,False,False,False,0,Low,No flags
+SHP09539,Minerals,100610,143612,143793,1871.19,0.022713530830624943,0.9987412460968197,False,False,False,False,0,Low,No flags
+SHP09532,Textiles,843890,128358,128742,635.81,0.09645535838416813,0.997017290394743,False,False,False,False,0,Low,No flags
+SHP09527,Agricultural,847130,135077,134589,1142.18,0.04745684008786441,1.0036258535244336,False,False,False,False,0,Low,No flags
+SHP09521,Minerals,520942,35884,36435,1674.74,0.015571663883404602,0.9848771785371209,False,False,False,False,0,Low,No flags
+SHP09495,Agricultural,847130,58848,59321,2916.13,0.004363280063608924,0.99202643246068,False,False,False,False,0,Low,No flags
+SHP09465,Minerals,100610,129717,128751,668.86,0.10304858969357444,1.0075028543467623,False,False,False,False,0,Low,No flags
+SHP09462,Electronics,847130,29754,29191,1424.14,0.008587179972348207,1.0192867664691172,False,False,False,False,0,Low,No flags
+SHP09460,Minerals,260300,101906,101134,1941.52,0.01198897705877369,1.0076334368263888,False,False,False,False,0,Low,No flags
+SHP09452,Electronics,843890,65338,65715,1347.16,0.02166170134154552,0.9942631058358061,False,False,False,False,0,Low,No flags
+SHP09439,Machinery,843890,64693,64377,1236.35,0.05196206326812728,1.0049085853643382,False,False,False,False,0,Low,No flags
+SHP09427,Machinery,843890,18352,18794,1928.59,0.003486903707807,0.9764818559114611,False,False,False,False,0,Low,No flags
+SHP00329,Electronics,847130,72411,72758,1371.43,0.013858171259942997,0.9952307650017868,False,False,False,False,0,Low,No flags
+SHP00318,Electronics,100610,14168,14256,2084.88,0.006133208438906941,0.9938271604938271,False,False,False,False,0,Low,No flags
+SHP09720,Electronics,100610,46767,46468,421.91,0.023904661420222104,1.0064345355943876,False,False,False,False,0,Low,No flags
+SHP09717,Electronics,260300,107042,107984,1187.93,0.018415696504559487,0.9912764854052453,False,False,False,False,0,Low,No flags
+SHP09716,Machinery,520942,108860,108724,164.33,0.5325140788973954,1.0012508737721202,False,False,False,False,0,Low,No flags
+SHP09692,Minerals,847130,52572,52874,2659.35,0.035113215775660137,0.9942883080531074,False,False,False,False,0,Low,No flags
+SHP09690,Textiles,843890,59339,59638,1847.56,0.012188802849179654,0.9949864180556022,False,False,False,False,0,Low,No flags
+SHP09683,Agricultural,100610,66237,66068,1743.98,0.007822938567935136,1.0025579705757703,False,False,False,False,0,Low,No flags
+SHP09665,Electronics,260300,119991,120390,2981.8,0.009486357736700243,0.9966857712434588,False,False,False,False,0,Low,No flags
+SHP09662,Machinery,520942,132298,131704,153.5,0.36152526069562557,1.0045101135880459,False,False,False,False,0,Low,No flags
+SHP09655,Machinery,100610,38673,38001,1659.63,0.006077773033805062,1.017683745164601,False,False,False,False,0,Low,No flags
+SHP09651,Electronics,847130,49211,48888,2891.09,0.0037426578204293477,1.0066069383079692,False,False,False,False,0,Low,No flags
+SHP09643,Textiles,100610,37968,38162,2579.56,0.003086347085527363,0.9949164089932393,False,False,False,False,0,Low,No flags
+SHP09638,Machinery,847130,124620,124059,1085.63,0.04351421164305521,1.0045220419316616,False,False,False,False,0,Low,No flags
+SHP09626,Electronics,847130,118676,118864,2456.14,0.02805928723395492,0.9984183604792031,False,False,False,False,0,Low,No flags
+SHP09624,Agricultural,260300,15138,15084,2080.98,0.002296230185253626,1.003579952267303,False,False,False,False,0,Low,No flags
+SHP09611,Electronics,260300,18439,17765,509.19,0.02833522362882581,1.037939769209119,False,False,False,False,0,Low,No flags
+SHP09610,Minerals,260300,27975,27429,2048.54,0.004577964213172518,1.0199059389697036,False,False,False,False,0,Low,No flags
+SHP00013,Electronics,260300,35535,35606,2008.18,0.07078050772341124,0.9980059540526878,False,False,False,False,0,Low,No flags
+SHP09986,Agricultural,520942,136335,136887,2768.71,0.015696953599467815,0.9959674768239497,False,False,False,False,0,Low,No flags
+SHP09866,Textiles,843890,137330,136698,1776.89,0.023773214412743115,1.004623330260867,False,False,False,False,0,Low,No flags
+SHP09862,Agricultural,100610,19969,19562,855.39,0.006149870126840017,1.0208056435947244,False,False,False,False,0,Low,No flags
+SHP09858,Textiles,847130,38114,37577,310.16,0.06128925815458774,1.0142906565186152,False,False,False,False,0,Low,No flags
+SHP09851,Electronics,100610,114584,114564,1070.49,0.02905505773183983,1.0001745749100939,False,False,False,False,0,Low,No flags
+SHP09835,Electronics,100610,12601,12664,771.4,0.03184256264779715,0.9950252684775742,False,False,False,False,0,Low,No flags
+SHP09832,Agricultural,100610,14528,14453,138.36,0.03418015804182326,1.0051892340690514,False,False,False,False,0,Low,No flags
+SHP09812,Machinery,520942,10773,10742,2191.55,0.0028234916338564296,1.002885868553342,False,False,False,False,0,Low,No flags
+SHP09800,Textiles,843890,74861,74473,2712.86,0.012757680529785619,1.005209941858123,False,False,False,False,0,Low,No flags
+SHP09799,Machinery,843890,61143,61374,2554.31,0.01230703779777069,0.9962361912210382,False,False,False,False,0,Low,No flags
+SHP09798,Electronics,847130,102554,102161,446.3,0.08997147168987644,1.0038468691575062,False,False,False,False,0,Low,No flags
+SHP09787,Minerals,520942,75651,75787,2544.29,0.019121311160168134,0.9982054969849711,False,False,False,False,0,Low,No flags
+SHP09778,Electronics,843890,62434,63157,516.12,0.4045752238791269,0.9885523378247858,False,False,False,False,0,Low,No flags
+SHP00217,Agricultural,520942,23743,24652,1652.93,0.003878020964121059,0.9631267239980529,False,False,False,False,0,Low,No flags
+SHP00210,Electronics,847130,105494,105098,716.44,0.035575622501901265,1.0037679118536984,False,False,False,False,0,Low,No flags
+SHP09932,Textiles,520942,34165,35116,2904.66,0.003259111651502635,0.9729183278277708,False,False,False,False,0,Low,No flags
+SHP09928,Minerals,100610,127648,127185,2369.7,0.19877023684782993,1.0036403663954083,False,False,False,False,0,Low,No flags
+SHP09894,Textiles,520942,35053,35266,828.59,0.04131288732968054,0.9939601882833324,False,False,False,False,0,Low,No flags
+SHP09892,Electronics,100610,52254,52760,2650.96,0.005659302282693124,0.9904094010614102,False,False,False,False,0,Low,No flags
+SHP09886,Machinery,260300,71330,71387,2209.18,0.008776297434574204,0.9992015352935408,False,False,False,False,0,Low,No flags
+SHP09884,Electronics,260300,69961,69831,388.77,0.48374927155149644,1.0018616373816787,False,False,False,False,0,Low,No flags
+SHP09880,Electronics,843890,110761,109790,571.07,0.04115286564683013,1.0088441570270517,False,False,False,False,0,Low,No flags
+SHP09872,Machinery,843890,10634,11631,1383.09,0.05058277213759733,0.9142808013068524,False,False,False,False,0,Low,No flags
+SHP09871,Textiles,520942,119155,119142,2923.31,0.1191821711513791,1.0001091134948212,False,False,False,False,0,Low,No flags
+SHP00097,Textiles,100610,127883,127763,2170.07,0.1139852167993333,1.0009392390598217,False,False,False,False,0,Low,No flags
+SHP00095,Electronics,260300,121421,120936,268.22,0.1640782240477129,1.00401038565853,False,False,False,False,0,Low,No flags
+SHP00086,Machinery,843890,62108,61789,270.66,0.07234196283914458,1.0051627312304778,False,False,False,False,0,Low,No flags
+SHP00073,Electronics,100610,134473,134738,498.68,0.14282727587271074,0.9980332200270154,False,False,False,False,0,Low,No flags
+SHP00057,Agricultural,843890,49811,49677,2708.15,0.004398134603227043,1.0026974253678764,False,False,False,False,0,Low,No flags
+SHP00052,Agricultural,843890,16938,16628,1879.69,0.005187714642727026,1.0186432523454414,False,False,False,False,0,Low,No flags
+SHP00026,Minerals,260300,54811,55797,1049.25,0.02832877734690154,0.9823287990393749,False,False,False,False,0,Low,No flags
